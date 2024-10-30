@@ -1,7 +1,5 @@
 <h1 align="center">Hi 👋, I'm hashan malinda</h1>
-<h3 align="center">A passionate full stack developer from Sri Lanka</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hashan789&label=Profile%20views&color=0e75b6&style=flat" alt="hashan789" /> </p>
+<h3 align="center">Full stack developer and AI enthusiastic</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hashan789" alt="hashan789" /></a> </p>
 
