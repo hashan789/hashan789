@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm hashan malinda</h1>
 <h3 align="center">Full stack developer and AI enthusiastic</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hashan789" alt="hashan789" /></a> </p>
-
 - 🔭 I’m currently working on **helios**
 
 - 🌱 I’m currently learning **typescript, python ang Artificial Intelligence**
