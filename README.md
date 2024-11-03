@@ -7,7 +7,7 @@
 
 - 💬 Ask me about **react and python**
 
-- ⚡ Fun fact **call me as #78**
+- ⚡ Fun fact **call me as hash**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
