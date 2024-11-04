@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **helios**
 
-- 🌱 I’m currently learning **Typescript, python ang Artificial Intelligence**
+- 🌱 I’m currently learning **Typescript, python and Artificial Intelligence**
 
 - 💬 Ask me about **react and python**
 
