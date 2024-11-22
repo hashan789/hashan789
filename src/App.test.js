@@ -4,7 +4,7 @@ import App from './App';
 test('renders learn react link', () => {
   render(<App />);
   const linkElement = screen.getByText((content, element) =>
-    content.includes('learn react')
+    content.includes('hash78')
   );
   expect(linkElement).toBeInTheDocument();
 });
