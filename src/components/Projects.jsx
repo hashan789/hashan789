@@ -2,8 +2,10 @@
   
 
 const projects = [
-  { title: "AI Health Assistant", description: "AI-driven healthcare app.", link: "#" },
+  { title: "Financial research assistant", description: "AI-driven healthcare app.", link: "#" },
   { title: "Web Scraper", description: "Automated data scraping tool.", link: "#" },
+  { title: "Python AI chatbot", description: "Automated data scraping tool.", link: "#" },
+  { title: "Email spam classifier", description: "Automated data scraping tool.", link: "#" },
 ];
 
 const Projects = () => (
