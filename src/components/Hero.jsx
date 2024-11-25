@@ -1,5 +1,6 @@
 import { FaLaptopCode } from "react-icons/fa";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Button } from "react-scroll";
 
 const Hero = () => (
   <section id="home" className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-blue-600 to-blue-400 text-white">
@@ -21,6 +22,7 @@ const Hero = () => (
         <FaTwitter />
       </a>
     </div>
+    <Button to="projects" smooth className="text-blue-700 w-36 font-semibold h-10 rounded-md bg-white mt-5">Download CV</Button>
   </section>
 );
 
