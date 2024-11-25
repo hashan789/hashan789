@@ -1,26 +1,34 @@
+import { Button } from "react-scroll";
+
 const Contact = () => (
     <section id="contact" className="py-20 bg-gray-200">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
-        <form className="space-y-4">
+      <div className="flex items-center justify-evenly">
+        <h2 className="text-3xl text-center font-bold mb-6">Contact Me</h2>
+        <form className="">
+          <label htmlFor="name">Name</label>
           <input
+            id="name"
             type="text"
-            placeholder="Your Name"
-            className="w-full p-2 border border-gray-300 rounded"
+            placeholder="Name"
+            className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
           />
+          <label htmlFor="email">Email</label>
           <input
+            id="email"
             type="email"
-            placeholder="Your Email"
-            className="w-full p-2 border border-gray-300 rounded"
+            placeholder="Email"
+            className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
           />
+          <label htmlFor="message">Message</label>
           <textarea
-            placeholder="Your Message"
-            className="w-full p-2 border border-gray-300 rounded"
+            id="message"
+            placeholder="Message"
+            className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
             rows={4}
           />
-          <button className="bg-blue-600 text-white px-4 py-2 rounded">
+          <Button className="bg-blue-600 text-white px-4 py-2 rounded">
             Send Message
-          </button>
+          </Button>
         </form>
       </div>
     </section>
