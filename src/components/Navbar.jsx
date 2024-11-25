@@ -5,7 +5,7 @@ const Navbar = () => (
     <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
       <h1 className="text-xl font-bold text-blue-600">Hash78</h1>
       <div className="space-x-6">
-        {["Home", "About", "Projects", "Contact"].map((section) => (
+        {["Home", "About", "experience", "Projects", "Contact"].map((section) => (
           <Link
             key={section}
             to={section.toLowerCase()}
