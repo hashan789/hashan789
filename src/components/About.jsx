@@ -5,7 +5,7 @@ const About = () => (
         <div className="align-left">
         <h2 className="text-3xl font-bold mb-4 text-center">About Me</h2>
         <p className="text-gray-700 max-w-2xl">
-          I'm a highly skilled and versatile professional with a strong foundation in software development, artificial intelligence, and web technologies. I am deeply invested in leveraging cutting-edge technology to solve real-world problems, particularly in the fields of healthcare and data-driven systems.
+        I am a passionate and results-driven software developer with expertise in Microsoft Azure, React.js, and Python, coupled with a strong foundation in Machine Learning. My experience spans designing and deploying cloud-based solutions, building dynamic and responsive web applications, and developing predictive models that drive data-driven decision-making.
         </p>
         </div>
       </div>
