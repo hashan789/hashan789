@@ -4,7 +4,7 @@ import { Button } from "react-scroll";
 
 const Hero = () => (
   <section id="home" className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-blue-600 to-blue-400 text-white">
-    <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
+    <h1 className="text-4xl md:text-6xl font-bold mb-4 animation-fade-in">
       Hi, I'm Hashan!
     </h1>
     <p className="text-lg md:text-2xl mb-6">
