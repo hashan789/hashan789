@@ -2,10 +2,10 @@
   
 
 const projects = [
-  { title: "Financial research assistant", description: "AI-driven healthcare app.", link: "#" },
-  { title: "Doc Query AI", description: "Automated data scraping tool.", link: "#" },
-  { title: "Python AI chatbot", description: "Automated data scraping tool.", link: "#" },
-  { title: "Email spam classifier", description: "Automated data scraping tool.", link: "#" },
+  { title: "Financial research assistant", description: "AI-driven financial assistant app focused within sri lankan global market.", link: "" },
+  { title: "Meme Gen", description: "Memes generator for social-media.", link: "https://github.com/hashan789/Meme-Gen" },
+  { title: "Python AI chatbot", description: "A customer service assistant.", link: "https://github.com/hashan789/Intelli-brad-AI" },
+  { title: "Email spam classifier", description: "Automated data scraping tool.", link: "https://github.com/hashan789/Email-Spam-Classifier" },
 ];
 
 const Projects = () => (
@@ -21,7 +21,7 @@ const Projects = () => (
                href={project.link}
                className="text-blue-600 text-xs hover:underline mt-2 block"
              >
-               View Details
+               View Source Code
              </a>
            </div>
         ))}
