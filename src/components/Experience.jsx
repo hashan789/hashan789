@@ -1,25 +1,18 @@
 const WorkExperienceTree = () => {
     const experiences = [
       {
-        position: "AI Solutions Developer",
-        company: "Microsoft Azure AI Studio",
+        position: "Full Stack Developer Intern",
+        company: "HeliosP2P",
         description:
-          "Developed and deployed AI-driven healthcare and financial solutions using GPT models and Azure services.",
-        duration: "Jan 2022 - Present",
+          "Contributing to the development of Helios peer-to-peer lending platform.",
+        duration: "Oct 2024 - present",
       },
       {
-        position: "Web Developer",
-        company: "Freelance Platforms",
+        position: "Full Stack Developer Intern",
+        company: "Cogniata Solutions (Pvt) Ltd",
         description:
-          "Built scalable web scraping solutions and modern websites using React, Node.js, and Tailwind.",
-        duration: "Jun 2020 - Dec 2021",
-      },
-      {
-        position: "Software Engineer Intern",
-        company: "Google Cloud Platform",
-        description:
-          "Contributed to cloud-based application development and real-time data analysis pipelines.",
-        duration: "Jan 2020 - May 2020",
+          "Contributed to Microsoft Azure Cloud-based application development.",
+        duration: "Apr 2024 - Oct 2024",
       },
     ];
   
