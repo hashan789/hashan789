@@ -22,7 +22,9 @@ const Hero = () => (
         <FaTwitter />
       </a>
     </div>
-    <Button to="projects" smooth className="text-blue-700 w-36 font-semibold h-10 rounded-md bg-white mt-5">Download CV</Button>
+    <a href="/hashan_malinda.pdf" download="hashan_malinda.pdf">
+      <Button smooth className="text-blue-700 w-36 font-semibold h-10 rounded-md bg-white mt-5" >Download CV</Button>
+    </a>
   </section>
 );
 
