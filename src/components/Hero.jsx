@@ -1,5 +1,5 @@
 import { FaLaptopCode } from "react-icons/fa";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { Button } from "react-scroll";
 import  downloadCV  from "../context/downloadCV";
 
@@ -13,14 +13,14 @@ const Hero = () => (
     </p>
     <FaLaptopCode className="text-5xl animate-bounce" />
     <div className="flex justify-center items-center space-x-4 mt-4">
-      <a href="#3" className="text-white hover:text-black text-2xl">
+      <a href="https://github.com/hashan789" className="text-white hover:text-black text-2xl">
         <FaGithub />
       </a>
-      <a href="#1" className="text-white hover:text-blue-800 text-2xl">
+      <a href="https://www.linkedin.com/in/hashan-malinda-b89474213/" className="text-white hover:text-blue-800 text-2xl">
         <FaLinkedin />
       </a>
-      <a href="#2" className="text-white hover:text-blue-700 text-2xl">
-        <FaTwitter />
+      <a href="https://medium.com/@hashanmalind123" className="text-white hover:text-black text-2xl">
+        <FaMedium />
       </a>
     </div>
     <Button smooth className="text-blue-700 w-36 font-semibold h-10 rounded-md bg-white mt-5" onClick={downloadCV}>Download CV</Button>
