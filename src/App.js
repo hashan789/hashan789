@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import WorkExperienceTree from "./components/Experience";
+import './App.css';
 
 const App = () => (
   <div className="font-poppins">
