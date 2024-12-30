@@ -19,8 +19,10 @@ const WorkExperienceTree = () => {
     return (
       <section id="experience" className="py-20 bg-gray-700 text-white flex items-center justify-center">
         <div className="container flex items-center justify-evenly gap-4">
-          <h2 className="text-3xl font-bold text-center mb-10">Work Experience</h2>
-          <div className="max-w-xl mx-auto border-l-4 border-blue-500 pl-8 space-y-10">
+          <div>
+          <h2 className="text-3xl font-bold text-center">Work Experience</h2>
+          </div>
+          <div className="max-w-xl border-l-4 border-blue-500 pl-8 space-y-10">
             {experiences.map((exp, index) => (
               <div key={index} className="relative">
                 {/* Timeline Dot */}
