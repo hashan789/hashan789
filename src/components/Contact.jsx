@@ -1,10 +1,10 @@
 import { Button } from "react-scroll";
-import logo from '../images/custom_gpt_image1.png';
+import logo from '../images/contact_image.png';
 
 const Contact = () => (
-    <section id="contact" className="flex items-center justify-center py-20 bg-gray-200">
-      <div className="container flex items-center justify-around rounded-lg bg-gray-500">
-      <div className="w-6/12 bg-no-repeat bg-cover bg-center" style={{ backgroundImage : `url(${logo})` , height : '600px' }}>
+    <section id="contact" className="flex items-center justify-center py-20 bg-gray-200 text-white">
+      <div className="container flex items-center justify-around rounded-lg bg-gray-500" style={{ backgroundImage : `url(${logo})` , backgroundPositionY : 'center' , }}>
+      <div className="w-6/12 bg-no-repeat bg-cover bg-center">
         {/* <img src={logo} alt={'logo'} width={1000} height={1000} /> */}
       </div>
       <div className="w-6/12 block p-20">
@@ -29,7 +29,7 @@ const Contact = () => (
             id="message"
             placeholder=""
             className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
-            rows={4}
+            rows={1}
           />
           <Button className="bg-white text-blue-600 font-bold px-4 py-2 rounded">
             Send Message

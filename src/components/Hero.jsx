@@ -2,9 +2,10 @@ import { FaLaptopCode } from "react-icons/fa";
 import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { Button } from "react-scroll";
 import  downloadCV  from "../context/downloadCV";
+import homepage from '../images/homepage.png';
 
 const Hero = () => (
-  <section id="home" className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-blue-600 to-blue-400 text-white">
+  <section id="home" className="h-screen flex flex-col justify-center items-center text-center text-white" style={{ backgroundImage : `url(${homepage})` }}>
     <h1 className="text-4xl md:text-6xl font-bold mb-4 animation-fade-in">
       Hi, I'm Hashan!
     </h1>
