@@ -3,15 +3,16 @@ import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { Button } from "react-scroll";
 import  downloadCV  from "../context/downloadCV";
 import homepage from '../images/homepage.png';
+import SlidingText from "./SlidingText";
 
 const Hero = () => (
   <section id="home" className="h-screen flex flex-col justify-center items-center text-center text-white" style={{ backgroundImage : `url(${homepage})` }}>
     <h1 className="text-4xl md:text-6xl font-bold mb-4 animation-fade-in">
       Hi, I'm Hashan!
     </h1>
-    <p className="text-lg md:text-2xl mb-6">
-      Full-Stack Developer | AI Enthusiast
-    </p>
+    <div className="h-36 flex items-center justify-center">
+      <SlidingText/>
+    </div>
     <FaLaptopCode className="text-5xl animate-bounce" />
     <div className="flex justify-center items-center space-x-4 mt-4">
       <a href="https://github.com/hashan789" className="text-white hover:text-black text-2xl">
