@@ -1,20 +1,6 @@
+import experiences from '../documents/experiences.json'
+
 const WorkExperienceTree = () => {
-    const experiences = [
-      {
-        position: "Full Stack Developer Intern",
-        company: "HeliosP2P",
-        description:
-          "Contributing to the development of Helios peer-to-peer lending platform.",
-        duration: "Oct 2024 - present",
-      },
-      {
-        position: "Full Stack Developer Intern",
-        company: "Cogniata Solutions (Pvt) Ltd",
-        description:
-          "Contributed to Microsoft Azure Cloud-based application development.",
-        duration: "Apr 2024 - Oct 2024",
-      },
-    ];
   
     return (
       <section id="experience" className="py-20 bg-gray-700 text-white flex items-center justify-center">

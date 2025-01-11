@@ -5,13 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Slider from "react-slick";  
 import logo from '../images/custom_gpt_image1.png';
-
-const projects = [
-  { title: "Financial research assistant", description: "AI-driven financial assistant app focused within sri lankan global market.", link: "" , image: logo },
-  { title: "Meme Gen", description: "Memes generator for social-media.", link: "https://github.com/hashan789/Meme-Gen" , image: logo},
-  { title: "Python AI chatbot", description: "A customer service assistant.", link: "https://github.com/hashan789/Intelli-brad-AI" , image: logo},
-  { title: "Email spam classifier", description: "Automated data scraping tool.", link: "https://github.com/hashan789/Email-Spam-Classifier" , image: logo},
-];
+import projects from '../documents/projects.json'
 
 function Projects(){
 
@@ -19,8 +13,8 @@ function Projects(){
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
@@ -37,13 +31,13 @@ function Projects(){
               <CardMedia
                 component="img"
                 height="200"
-                image={project.image}
+                image={logo}
                 alt={project.title}
               />
               <CardContent>
-                <h3 className="font-poppins font-bold">
+                <h5 className="font-poppins font-bold">
                   {project.title}
-                </h3>
+                </h5>
                 <p className="font-poppins text-gray-600">
                   {project.description}
                 </p>
