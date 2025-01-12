@@ -33,3 +33,16 @@ code {
   animation: fade-in 1s ease-in-out;
 }
 
+
+@keyframes slide-in-updown {
+  0% { transform: translateY(0) }
+  50% { transform: translateY(-100%) }
+  100% { transform: translateY(0) }
+}
+
+.animate-fade-in {
+  animation: slide-in-updown 1s ease-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
