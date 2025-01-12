@@ -18,11 +18,17 @@ module.exports = {
         fadeIn: {
           "from" : { opacity: 0 },
           "to" : { opacity: 1 }
-        }
+        },
+        slideInUpDown: {
+          "0%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(0)" }
+        },
       },
       animation: {
         "slide-in-left": "slideInLeft 1s ease-out",
         "slide-in-right": "slideInRight 1s ease-out",
+        "slide-in-up-down": "slideInUpDown 1s ease-out",
         "fade-in": "fadeIn 1s ease-in-out",
       },
     },
