@@ -24,22 +24,22 @@ function Projects(){
       <Slider {...settings}>
         {projects.map((project, index) => (
           <div key={index} className="p-4">
-            <div className="shadow-lg flex items-center justify-center">
-              <div className='w-7/12 h-full'>
+            <div className="shadow-lg max-sm:block flex items-center justify-center">
+              <div className='w-7/12 max-sm:w-full h-full'>
                 <img
                   className="w-full h-full object-cover"
                   src={logo}
                   alt={project.title}
                 />
               </div>
-              <div className="w-5/12 p-5 ml-5">
+              <div className="w-5/12 max-sm:w-full p-5 ml-5">
                 <h5 className="font-poppins font-bold mb-5">
                   {project.title}
                 </h5>
-                <p className="font-poppins text-gray-600 mb-5">
+                <p className="font-poppins text-gray-600 mb-5 max-sm:text-sm">
                   {project.description}
                 </p>
-                <a href={project.link} className='text-cyan-700 text-sm mt-5 mb-5'>View Source Code</a>
+                <a href={project.link} className='text-cyan-700 text-sm mt-5 mb-5 max-sm:text-xs'>View Source Code</a>
               </div>
             </div>
           </div>

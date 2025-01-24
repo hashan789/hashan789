@@ -13,7 +13,7 @@ const Footer = () => (
         <FaMedium />
       </a>
     </div>
-    <p className="text-gray-500 mt-4">&copy; 2024 Hashan. All Rights Reserved.</p>
+    <p className="text-gray-500 mt-4 max-sm:text-sm">&copy; 2024 Hashan. All Rights Reserved.</p>
   </footer>
 );
 

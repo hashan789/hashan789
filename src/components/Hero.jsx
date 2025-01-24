@@ -6,7 +6,7 @@ import homepage from '../images/homepage.png';
 import TypingText from "./TypingText";
 
 const Hero = () => (
-  <section id="home" className="h-screen flex flex-col justify-center items-center text-center text-white" style={{ backgroundImage : `url(${homepage})` }}>
+  <section id="home" className="h-screen max-sm:bg-center max-sm:bg-cover flex flex-col justify-center items-center text-center text-white" style={{ backgroundImage : `url(${homepage})` }}>
     <h1 className="text-4xl md:text-6xl font-bold mb-4 animation-fade-in">
       Hi, I'm Hashan!
     </h1>
