@@ -1,51 +1,28 @@
 // import { Card } from "@shadcn/ui";
-import Box from '@mui/material/Box';
-import Slider from "react-slick";  
-import logo from '../images/custom_gpt_image1.png';
-import projects from '../documents/projects.json'
+
+import { useState } from "react";
+import WebProjects from "./WebProjects";
+import MLProjects from "./MLProjects";
 
 function Projects(){
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: false,
-  };
+  const [ section, setSection ] = useState("Web");
   
   return(
   <section id="projects" className="py-20">
     <div className="text-3xl text-center font-bold mb-6">Projects</div>
-    <Box className="font-poppins mx-auto mt-4 p-4">
-      <Slider {...settings}>
-        {projects.map((project, index) => (
-          <div key={index} className="p-4">
-            <div className="shadow-lg max-sm:block flex items-center justify-center">
-              <div className='w-7/12 max-sm:w-full h-full'>
-                <img
-                  className="w-full h-full object-cover"
-                  src={logo}
-                  alt={project.title}
-                />
-              </div>
-              <div className="w-5/12 max-sm:w-full p-5 ml-5">
-                <h5 className="font-poppins font-bold mb-5">
-                  {project.title}
-                </h5>
-                <p className="font-poppins text-gray-600 mb-5 max-sm:text-sm">
-                  {project.description}
-                </p>
-                <a href={project.link} className='text-cyan-700 text-sm mt-5 mb-5 max-sm:text-xs'>View Source Code</a>
-              </div>
-            </div>
-          </div>
-        ))}
-      </Slider>
-    </Box>
+    <div className="flex justify-around items-center">
+      <h2 className={`px-5 py-2 ${section === "Web" ? 'bg-blue-600 text-white' :  'bg-black text-blue-600' } font-semibold text-xl`} onClick={() => setSection("Web")}>Web Development</h2>
+      <h2 className={`px-5 py-2 ${section === "ML" ? 'bg-blue-600 text-white' :  'bg-black text-blue-600' } font-semibold text-xl`} onClick={() => setSection("ML")}>Machine Learning</h2>
+    </div>
+      <div className="mt-5">
+    {
+        section === "Web" && <WebProjects /> 
+    }
+    {
+        section === "ML" && <MLProjects /> 
+    }
+      </div>
   </section>
   )
 }
