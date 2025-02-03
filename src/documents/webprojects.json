@@ -6,21 +6,15 @@
         "image": "../images/custom_gpt_image1.png" 
     },
     { 
-        "title": "Meme Gen", 
-        "description": "Memes generator for social-media.", 
-        "link": "https://github.com/hashan789/Meme-Gen" , 
+        "title": "hashsports", 
+        "description": "Ecommerce page for men's fashion", 
+        "link": "https://github.com/hashan789/hashsports" , 
         "image": "../images/custom_gpt_image1.png"
     },
     { 
-        "title": "Python AI chatbot", 
+        "title": "Chit Chat", 
         "description": "Python AI chatbot is a web application designed to provide customer support. The user interface is developed using JavaScript, which can include a web-based interface. The chatbot maintains a conversation context, remembering previous messages to ensure relevant responses.", 
         "link": "https://github.com/hashan789/Intelli-brad-AI" , 
-        "image": "../images/custom_gpt_image1.png"
-    },
-    { 
-        "title": "Email spam classifier", 
-        "description": "Email spam classifier is a web application designed to automatically categorize incoming emails as either 'spam' or 'ham'. The user interface of this application is built using flask. This is a text classification problem where the model learns to distinguish between legitimate and harmful emails based on their content and features.", 
-        "link": "https://github.com/hashan789/Email-Spam-Classifier" , 
         "image": "../images/custom_gpt_image1.png"
     }
   ]
