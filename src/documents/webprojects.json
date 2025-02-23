@@ -7,13 +7,13 @@
     },
     { 
         "title": "hashsports", 
-        "description": "Ecommerce page for men's fashion", 
+        "description": "HashSports is a dynamic eCommerce platform developed using Vite + React, Tailwind CSS, and Express.js. Designed for a seamless and fast user experience, HashSports offers a modern interface with responsive design, ensuring smooth navigation across all devices.It has been utilized Vite and React for blazing-fast loading speeds and a dynamic user interface and Crafted a clean, responsive design with custom animations for an engaging user experience.", 
         "link": "https://github.com/hashan789/hashsports" , 
         "image": "../images/custom_gpt_image1.png"
     },
     { 
         "title": "Chit Chat", 
-        "description": "Python AI chatbot is a web application designed to provide customer support. The user interface is developed using JavaScript, which can include a web-based interface. The chatbot maintains a conversation context, remembering previous messages to ensure relevant responses.", 
+        "description": "ChitChat is an interactive web chat application developed using React, Socket.io, and Express.js, designed for seamless real-time communication. With a sleek and responsive interface, users can engage in dynamic conversations across devices. It has been leveraged Socket.io to enable instant message delivery and live typing indicators.", 
         "link": "https://github.com/hashan789/Intelli-brad-AI" , 
         "image": "../images/custom_gpt_image1.png"
     }
