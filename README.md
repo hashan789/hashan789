@@ -7,8 +7,6 @@
 
 - 💬 Ask me about **react and python**
 
-- ⚡ Fun fact **call me as hash**
-
 <p align="left">
 </p>
 
