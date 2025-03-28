@@ -27,7 +27,7 @@ export default function WebProjects() {
               <div className='w-7/12 max-sm:w-full h-full'>
                 <img
                   className="w-full h-full object-cover"
-                  src={logo}
+                  src={project.image}
                   alt={project.title}
                 />
               </div>
@@ -38,6 +38,15 @@ export default function WebProjects() {
                 <p className="font-poppins text-gray-600 mb-5 max-sm:text-sm">
                   {project.description}
                 </p>
+                <div className='flex justify-left items-center mb-5 gap-5'>
+                  {
+                    project.technologies.map((technology,index) => (
+                      <p key={index} className={`font-poppins max-sm:text-sm ${technology.color}`}>
+                        {technology.language}
+                      </p>
+                    ))
+                  }
+                </div>
                 <a href={project.link} className='text-cyan-700 text-sm mt-5 mb-5 max-sm:text-xs'>View Source Code</a>
               </div>
             </div>

@@ -3,12 +3,48 @@
         "title": "Python AI chatbot", 
         "description": "Python AI chatbot is a web application designed to provide customer support. The user interface is developed using JavaScript, which can include a web-based interface. The chatbot maintains a conversation context, remembering previous messages to ensure relevant responses.", 
         "link": "https://github.com/hashan789/Intelli-brad-AI" , 
-        "image": "../images/custom_gpt_image1.png"
+        "image": "/images/chatbot.png",
+        "technologies" : [
+            {
+                "language" : "React JS",
+                "color" : "text-blue-600"
+            },
+            {
+                "language" : "Node JS",
+                "color" : "text-green-600"
+            },
+            {
+                "language" : "Python",
+                "color" : "text-cyan-500"
+            },
+            {
+                "language" : "Mongo DB",
+                "color" : "text-green-700"
+            }
+        ] 
     },
     { 
         "title": "Email spam classifier", 
         "description": "Email spam classifier is a web application designed to automatically categorize incoming emails as either 'spam' or 'ham'. The user interface of this application is built using flask. This is a text classification problem where the model learns to distinguish between legitimate and harmful emails based on their content and features.", 
         "link": "https://github.com/hashan789/Email-Spam-Classifier" , 
-        "image": "../images/custom_gpt_image1.png"
+        "image": "/images/email_spam_classifier.png",
+        "technologies" : [
+            {
+                "language" : "React JS",
+                "color" : "text-blue-600"
+            },
+            {
+                "language" : "Node JS",
+                "color" : "text-green-600"
+            },
+            {
+                "language" : "Python",
+                "color" : "text-cyan-600"
+            },
+            {
+                "language" : "Mongo DB",
+                "color" : "text-green-700"
+            }
+        ] 
     }
 ]
