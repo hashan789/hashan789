@@ -1,7 +1,6 @@
 import React from 'react'
 import Box from '@mui/material/Box';
 import Slider from "react-slick";  
-import logo from '../images/custom_gpt_image1.png';
 import projects from '../documents/webprojects.json'
 
 export default function WebProjects() {
