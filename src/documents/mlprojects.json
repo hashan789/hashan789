@@ -6,20 +6,16 @@
         "image": "/images/chatbot.png",
         "technologies" : [
             {
-                "language" : "React JS",
-                "color" : "text-blue-600"
-            },
-            {
-                "language" : "Node JS",
-                "color" : "text-green-600"
-            },
-            {
                 "language" : "Python",
-                "color" : "text-cyan-500"
+                "color" : "#27a3a3"
             },
             {
-                "language" : "Mongo DB",
-                "color" : "text-green-700"
+                "language" : "JavaScript",
+                "color" : "#e1f10b"
+            },
+            {
+                "language" : "Azure",
+                "color" : "#0072c6"
             }
         ] 
     },
@@ -30,20 +26,20 @@
         "image": "/images/email_spam_classifier.png",
         "technologies" : [
             {
-                "language" : "React JS",
-                "color" : "text-blue-600"
+                "language" : "HTML",
+                "color" : "#f34122"
             },
             {
-                "language" : "Node JS",
-                "color" : "text-green-600"
+                "language" : "JavaScript",
+                "color" : "#e1f10b"
             },
             {
                 "language" : "Python",
-                "color" : "text-cyan-600"
+                "color" : "#27a3a3"
             },
             {
-                "language" : "Mongo DB",
-                "color" : "text-green-700"
+                "language" : "Azure",
+                "color" : "#0072c6"
             }
         ] 
     }

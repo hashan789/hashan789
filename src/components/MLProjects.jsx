@@ -40,7 +40,7 @@ export default function MLProjects() {
                 <div className='flex justify-left items-center mb-5 gap-5'>
                   {
                     project.technologies.map((technology,index) => (
-                      <p key={index} className={`font-poppins max-sm:text-sm ${technology.color}`}>
+                      <p key={index} className={`font-poppins max-sm:text-xs`} style={{ color : technology.color }}>
                         {technology.language}
                       </p>
                     ))

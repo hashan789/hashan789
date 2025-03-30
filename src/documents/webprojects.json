@@ -7,19 +7,31 @@
         "technologies" : [
             {
                 "language" : "React JS",
-                "color" : "text-blue-600"
+                "color" : "#0000ff"
             },
             {
                 "language" : "Node JS",
-                "color" : "text-green-600"
+                "color" : "#008000"
             },
             {
                 "language" : "Python",
-                "color" : "text-cyan-500"
+                "color" : "#27a3a3"
+            },
+            {
+                "language" : "Tailwind CSS",
+                "color" : "#800080"
+            },
+            {
+                "language" : "Express JS",
+                "color" : "#000000"
             },
             {
                 "language" : "Mongo DB",
-                "color" : "text-green-700"
+                "color" : "#72db72"
+            },
+            {
+                "language" : "Azure",
+                "color" : "#0072c6"
             }
         ] 
     },
@@ -31,23 +43,27 @@
         "technologies" : [
             {
                 "language" : "React JS",
-                "color" : "text-blue-600"
+                "color" : "#0000ff"
             },
             {
                 "language" : "Node JS",
-                "color" : "text-green-600"
+                "color" : "#008000"
             },
             {
                 "language" : "Tailwind CSS",
-                "color" : "text-purple-600"
+                "color" : "#800080"
             },
             {
                 "language" : "Express JS",
-                "color" : "text-black"
+                "color" : "#000000"
             },
             {
                 "language" : "Mongo DB",
-                "color" : "text-green-700"
+                "color" : "#72db72"
+            },
+            {
+                "language" : "Azure",
+                "color" : "#0072c6"
             }
         ] 
     },
@@ -59,15 +75,19 @@
         "technologies" : [
             {
                 "language" : "React JS",
-                "color" : "text-blue-600"
+                "color" : "#0000ff"
             },
             {
                 "language" : "Node JS",
-                "color" : "text-green-600"
+                "color" : "#008000"
             },
             {
                 "language" : "Mongo DB",
-                "color" : "text-green-700"
+                "color" : "#72db72"
+            },
+            {
+                "language" : "Azure",
+                "color" : "#0072c6"
             }
         ] 
     }
