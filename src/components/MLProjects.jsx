@@ -1,11 +1,39 @@
 import React from 'react'
 import Box from '@mui/material/Box';
 import Slider from "react-slick";  
-import projects from '../documents/mlprojects.json'
+import projects from '../documents/mlprojects.json';
+import { FaReact, FaNodeJs, FaPython, FaJs, FaHtml5, FaCss3 } from 'react-icons/fa';
 
 export default function MLProjects() {
 
-    const settings = {
+  const technologies = [
+    {
+        name: "React",
+        icon: <FaReact className='text-blue-600' />
+    },
+    {
+        name: "Node.js",
+        icon: <FaNodeJs className='text-green-600' />
+    },
+    {
+        name: "Python",
+        icon: <FaPython className='text-yellow-600' />
+    },
+    {
+        name: "JavaScript",
+        icon: <FaJs className='text-yellow-600' />
+    },
+    {
+        name: "HTML5",
+        icon: <FaHtml5 className='text-orange-600' />
+    },
+    {
+        name: "CSS3",
+        icon: <FaCss3 className='text-blue-600' />
+    }
+  ]
+  
+  const settings = {
         dots: true,
         infinite: true,
         speed: 500,
@@ -40,13 +68,24 @@ export default function MLProjects() {
                 <div className='flex justify-left items-center mb-5 gap-5'>
                   {
                     project.technologies.map((technology,index) => (
-                      <p key={index} className={`font-poppins max-sm:text-xs`} style={{ color : technology.color }}>
-                        {technology.language}
-                      </p>
+                      <div key={index} className={`p-2 border rounded-full`} >
+                        {
+                          technologies.map((tech, subIndex) => (
+                            <div key={subIndex} className="">
+                              {technology.language === tech.name && 
+                                  tech.icon
+                              }
+                            </div>
+                          ))
+                        }
+                      </div>
                     ))
                   }
                 </div>
-                <a href={project.link} className='text-cyan-700 text-sm mt-5 mb-5 max-sm:text-xs'>View Source Code</a>
+                <div className="flex justify-left items-center gap-4">
+                  <a href={project.link} className='bg-cyan-700 text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg'>View Source Code</a>
+                  <a href={project.link} className='bg-blue-700 text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg'>View Project</a>
+                </div>
               </div>
             </div>
           </div>
