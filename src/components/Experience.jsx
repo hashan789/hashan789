@@ -1,8 +1,7 @@
 import experiences from '../documents/experiences.json'
+import { FaLinkedin, FaFacebook } from 'react-icons/fa';
 
-const WorkExperienceTree = () => {
-  
-    return (
+const WorkExperienceTree = () => (
       <section id="experience" className="py-20 bg-gray-700 text-white flex items-center justify-center">
         <div className="container max-sm:block lg:flex items-center justify-evenly gap-4">
           <div>
@@ -19,6 +18,14 @@ const WorkExperienceTree = () => {
                 <div>
                   <h3 className="text-xl font-semibold max-sm:text-lg">{exp.position}</h3>
                   <p className="text-blue-500 text-lg">{exp.company}</p>
+                  <div className="flex justify-left items-center gap-4 my-3">
+                    <div className="p-2 border rounded-full">
+                      <FaFacebook size={20} className='hover:text-blue-800 transition-all duration-300'/>
+                    </div>
+                    <div className="p-2 border rounded-full">
+                      <FaLinkedin size={20} className='hover:text-blue-500 transition-all duration-300'/>
+                    </div>
+                  </div>
                   <p className="text-gray-100 mt-2 text-sm">{exp.description}</p>
                   <span className="text-xs text-gray-400">{exp.duration}</span>
                 </div>
@@ -28,7 +35,6 @@ const WorkExperienceTree = () => {
         </div>
       </section>
     );
-  };
   
   export default WorkExperienceTree;
   
