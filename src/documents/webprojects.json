@@ -6,11 +6,11 @@
         "image": "/images/custom_gpt_image1.png",
         "technologies" : [
             {
-                "language" : "React JS",
+                "language" : "React",
                 "color" : "#0000ff"
             },
             {
-                "language" : "Node JS",
+                "language" : "Node.js",
                 "color" : "#008000"
             },
             {
@@ -18,7 +18,7 @@
                 "color" : "#27a3a3"
             },
             {
-                "language" : "Tailwind CSS",
+                "language" : "CSS3",
                 "color" : "#800080"
             },
             {
@@ -42,15 +42,15 @@
         "image": "/images/hashsports.png",
         "technologies" : [
             {
-                "language" : "React JS",
+                "language" : "React",
                 "color" : "#0000ff"
             },
             {
-                "language" : "Node JS",
+                "language" : "Node.js",
                 "color" : "#008000"
             },
             {
-                "language" : "Tailwind CSS",
+                "language" : "CSS3",
                 "color" : "#800080"
             },
             {
@@ -74,11 +74,11 @@
         "image": "/images/chit_chat.png",
         "technologies" : [
             {
-                "language" : "React JS",
+                "language" : "React",
                 "color" : "#0000ff"
             },
             {
-                "language" : "Node JS",
+                "language" : "Node.js",
                 "color" : "#008000"
             },
             {
