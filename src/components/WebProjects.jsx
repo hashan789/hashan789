@@ -65,7 +65,7 @@ export default function WebProjects() {
                 <p className="font-poppins text-gray-600 mb-5 max-sm:text-sm">
                   {project.description}
                 </p>
-                <div className='lg:flex lg:justify-left lg:items-center max-sm:grid-cols-4 max-sm:gap-3 mb-5 lg:gap-5'>
+                <div className='flex justify-left items-center max-sm:gap-3 mb-5 lg:gap-5'>
                   {
                     project.technologies.map((technology,index) => (
                       <div key={index} className={`p-2 border rounded-full`} >
