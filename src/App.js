@@ -1,30 +1,18 @@
 import { Suspense, lazy } from 'react';
 import './App.css';
 import Loader from './components/Loader';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-const Navbar = lazy(() => import("./components/Navbar"));
-const Hero = lazy(() => import("./components/Hero"));
-const About = lazy(() => import("./components/About"));
-const WorkExperienceTree = lazy(() => import("./components/Experience"));
-const Projects = lazy(() => import("./components/Projects"));
-const SpecialProject = lazy(() => import("./components/SpecialProject"));
-const Contact = lazy(() => import("./components/Contact"));
-const Footer = lazy(() => import("./components/Footer"));
-
+const Homepage = lazy(() => import('./components/Homepage'));
 
 const App = () => (
-  <div className="font-poppins">
+  <BrowserRouter>
     <Suspense fallback={<Loader />}>
-      <Navbar />
-      <Hero />
-      <About />
-      <WorkExperienceTree />
-      <Projects />
-      <SpecialProject />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
     </Suspense>
-  </div>
+  </BrowserRouter>
 );
 
 export default App;
