@@ -83,8 +83,8 @@ export default function MLProjects() {
                   }
                 </div>
                 <div className="flex justify-left items-center gap-4">
-                  <a href={project.link} className='bg-cyan-700 text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg'>View Source Code</a>
-                  <a href={project.link} className='bg-blue-700 text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg'>View Project</a>
+                { project.link && <a href={project.link} className='bg-cyan-700 text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg'>View Source Code</a>}
+                { project.project && <a href={project.project} className='bg-blue-700 text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg'>View Project</a>}
                 </div>
               </div>
             </div>
