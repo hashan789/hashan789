@@ -3,7 +3,7 @@ import meme_gen from "../images/meme_gen.png"; // replace with your meme icon
 import { Link } from "react-router-dom";
 
 const SpecialProject = () => (
-    <div className="lg:w-full max-sm:container font-poppins bg-gradient-to-r from-blue-700 via-blue-400 to-blue-100 text-white p-10 shadow-2xl">
+    <div className="lg:w-full max-sm:container font-poppins bg-gradient-to-r from-gray-700 to-blue-700 text-white p-10 shadow-2xl">
       <div className="lg:flex max-sm:block flex-col md:flex-row items-center justify-around">
         {/* Left Content */}
         <div className="lg:w-1/2 max-sm:w-full text-center md:text-left">
@@ -21,8 +21,8 @@ const SpecialProject = () => (
           <p className="text-sm my-3">
             Say hello to <b>Meme Gen</b>, the easiest and fastest way to turn your ideas into viral-worthy memes!
           </p>
-          <div className="mt-6 lg:flex max-sm:block justify-center md:justify-start lg:gap-4">
-            <Link to={"https://zealous-forest-0458eb40f.4.azurestaticapps.net/"} className="bg-white text-red-500 text-sm font-semibold px-6 py-2 max-sm:mb-3 rounded-full shadow hover:bg-gray-100 transition duration-300">
+          <div className="mt-6 lg:flex max-sm:grid justify-center md:justify-start lg:gap-4">
+            <Link to={"https://zealous-forest-0458eb40f.4.azurestaticapps.net/"} className="bg-white text-cyan-700 text-sm font-semibold px-6 py-2 max-sm:mb-3 rounded-full shadow hover:bg-gray-100 transition duration-300">
               Try Now 🚀
             </Link>
             <Link to={"https://github.com/hashan789/Meme-Gen"} className="bg-white text-blue-500 text-sm font-semibold px-6 py-2 rounded-full shadow hover:bg-gray-100 transition duration-300">

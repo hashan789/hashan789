@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 export default function Homepage() {
   return (
-    <div className="font-poppins">
+    <div className="font-poppins bg-gray-100">
       <Navbar />
       <Hero />
       <About />

@@ -2,7 +2,7 @@ import { Button } from "react-scroll";
 import logo from '../images/contact_image.png';
 
 const Contact = () => (
-    <section id="contact" className="flex items-center justify-center py-20 bg-gray-200 text-white">
+    <section id="contact" className="flex items-center justify-center py-20 text-white">
       <div className="container max-sm:block flex items-center justify-around rounded-lg bg-gray-500" style={{ backgroundImage : `url(${logo})` , backgroundPositionY : 'center' , }}>
       <div className="w-6/12 max-sm:hidden bg-no-repeat bg-cover bg-center bg-opacity-50 space-x-5">
         <p className="text-6xl font-bold mb-5 text-center">Gives Best</p>
