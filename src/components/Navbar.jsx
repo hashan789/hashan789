@@ -1,29 +1,29 @@
 import { Link } from "react-scroll";
-import { FaMinusCircle, FaHome, FaUser, FaBox, FaProjectDiagram, FaMailchimp  } from "react-icons/fa";
 import { useState, useEffect } from "react";
+import { BriefcaseBusiness , Home, UserCircle, AppWindow, Mail, Menu  } from "lucide-react"
 
 function Navbar(){
 
   const sections = [
     {
       name: "Home",
-      icon: <FaHome size={20} className="text-white lg:hidden"/>
+      icon: <Home size={20} className="text-white lg:hidden"/>
     },
     {
       name: "About",
-      icon: <FaUser size={20} className="text-white lg:hidden"/>
+      icon: <UserCircle size={20} className="text-white lg:hidden"/>
     },
     {
       name: "Experience",
-      icon: <FaBox size={20} className="text-white lg:hidden"/>
+      icon: <BriefcaseBusiness size={20} className="text-white lg:hidden"/>
     },
     {
       name: "Projects",
-      icon: <FaProjectDiagram size={20} className="text-white lg:hidden"/>
+      icon: <AppWindow size={20} className="text-white lg:hidden"/>
     },
     {
       name: "Contact",
-      icon: <FaMailchimp size={20} className="text-white lg:hidden"/>
+      icon: <Mail size={20} className="text-white lg:hidden"/>
     }
   ]
 
@@ -38,7 +38,7 @@ function Navbar(){
     const handleScroll = () => {
       if (window.scrollY > window.innerHeight) {
         setNavColor({
-          text : "text-gray-600",
+          text : "lg:text-gray-600 max-sm:text-white",
           bg : "bg-white",
           shadow : "shadow-md"
         }); // Change to any color
@@ -65,8 +65,8 @@ function Navbar(){
   return(
   <nav className={`fixed top-0 w-full ${navColor.shadow} z-10 transition-all duration-300 ${navColor.bg}`}>
     <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
-      <h1 className="text-xl font-bold text-blue-600">Hash78</h1>
-      <div className="lg:hidden sm:hidden max-sm:block" onClick={toggleMenuBar}><FaMinusCircle size={40} className="text-black" /></div>
+      <h1 className="text-xl font-bold text-blue-500">Hash78</h1>
+      <div className="lg:hidden sm:hidden max-sm:block" onClick={toggleMenuBar}><Menu size={40} className="text-blue-500" /></div>
       <div className={`lg:space-x-6 lg:flex lg:justify-center lg:items-center max-sm:left-0 max-sm:p-4 max-sm:w-full max-sm:h-auto max-sm:bg-gray-600 max-sm:text-sm ${ isShowMenu ? 'max-sm:grid' : 'max-sm:hidden' } transition-all duration-300 max-sm:absolute max-sm:top-20 max-sm:text-white`}>
         {sections.map((section, index) => (
           <div key={index} className="max-sm:flex max-sm:justify-center max-sm:items-center max-sm:gap-3 max-sm:mb-3">
