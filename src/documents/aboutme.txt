@@ -6,8 +6,9 @@ I specialize in modern technologies including React.js, Next.js, Tailwind CSS, N
 
 I’ve completed a 1-year internship, where I gained hands-on experience building responsive, 
 scalable web applications using the full MERN stack. 
+
 This experience strengthened my skills in building dynamic user interfaces, RESTful APIs, and 
 working with real-world databases and deployment environments.
 
-I’m enthusiastic about creating seamless digital experiences and 
+#I’m enthusiastic about creating seamless digital experiences and 
 continuously exploring new technologies to push the boundaries of what I can build
