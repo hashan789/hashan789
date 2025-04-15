@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
-import { BriefcaseBusiness , Home, UserCircle, AppWindow, Mail, Menu  } from "lucide-react"
+import { BriefcaseBusiness , Home, UserCircle, AppWindow, Mail, Menu  } from "lucide-react";
+import colors from "../documents/colorpalette.json";
 
 function Navbar(){
 
@@ -65,7 +66,7 @@ function Navbar(){
   return(
   <nav className={`fixed top-0 w-full ${navColor.shadow} z-10 transition-all duration-300 ${navColor.bg}`}>
     <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
-      <h1 className="text-xl font-bold text-blue-500">Hash78</h1>
+      <h1 className={`text-xl font-bold ${colors["text-light"]}`}>Hash78</h1>
       <div className="lg:hidden sm:hidden max-sm:block" onClick={toggleMenuBar}><Menu size={40} className="text-blue-500" /></div>
       <div className={`lg:space-x-6 lg:flex lg:justify-center lg:items-center max-sm:left-0 max-sm:p-4 max-sm:w-full max-sm:h-auto max-sm:bg-gray-600 max-sm:text-sm ${ isShowMenu ? 'max-sm:grid' : 'max-sm:hidden' } transition-all duration-300 max-sm:absolute max-sm:top-20 max-sm:text-white`}>
         {sections.map((section, index) => (
@@ -74,7 +75,7 @@ function Navbar(){
             <Link
               to={section.name.toLowerCase()}
               smooth
-              className={`cursor-pointer ${navColor.text} hover:text-blue-600`}
+              className={`cursor-pointer ${navColor.text} hover:${colors["text-light"]} transition-all duration-300`}
             >
               {section.name}
             </Link>

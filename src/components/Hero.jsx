@@ -4,6 +4,7 @@ import { Button } from "react-scroll";
 import  downloadCV  from "../context/downloadCV";
 import homepage from '../images/homepage.png';
 import TypingText from "./TypingText";
+import colors from '../documents/colorpalette.json';
 
 const Hero = () => (
   <section id="home" className="h-screen max-sm:bg-center max-sm:bg-cover flex flex-col justify-center items-center text-center text-white" style={{ backgroundImage : `url(${homepage})` }}>
@@ -25,7 +26,7 @@ const Hero = () => (
         <FaMedium />
       </a>
     </div>
-    <Button smooth className="text-blue-700 w-36 font-semibold h-10 rounded-md bg-white mt-5" onClick={downloadCV}>Download CV</Button>
+    <Button smooth className={`${colors["text-light"]} w-36 font-semibold h-10 rounded-md bg-white mt-5`} onClick={downloadCV}>Download CV</Button>
   </section>
 );
 

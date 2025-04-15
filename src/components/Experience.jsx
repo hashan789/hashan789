@@ -1,8 +1,10 @@
+import { Link } from 'react-scroll';
 import experiences from '../documents/experiences.json'
 import { FaLinkedin, FaFacebook } from 'react-icons/fa';
+import colors from '../documents/colorpalette.json';
 
 const WorkExperienceTree = () => (
-      <section id="experience" className="py-20 bg-gray-700 text-white flex items-center justify-center">
+      <section id="experience" className={`py-20 ${colors['bg-light']} text-black flex items-center justify-center`}>
         <div className="container max-sm:block lg:flex items-center justify-evenly gap-4">
           <div>
           <h2 className="text-3xl font-bold text-center max-sm:text-2xl max-sm:mb-8">Work Experience</h2>
@@ -11,13 +13,13 @@ const WorkExperienceTree = () => (
             {experiences.map((exp, index) => (
               <div key={index} className="relative">
                 {/* Timeline Dot */}
-                <div className="w-10 h-10 mt-2 mb-2 bg-blue-500 rounded-full flex items-center justify-center text-white">
+                <div className={`w-10 h-10 mt-2 mb-2 bg-white ${colors['text-light']} rounded-full flex items-center justify-center`}>
                   <span className="text-sm font-bold">{index + 1}</span>
                 </div>
                 {/* Content */}
                 <div>
                   <h3 className="text-xl font-semibold max-sm:text-lg">{exp.position}</h3>
-                  <p className="text-blue-500 text-lg">{exp.company}</p>
+                  <p className="text-gray-700 text-lg">{exp.company}</p>
                   <div className="flex justify-left items-center gap-4 my-3">
                     <div className="p-2 border rounded-full">
                       <FaFacebook size={20} className='hover:text-blue-800 transition-all duration-300'/>
@@ -26,8 +28,13 @@ const WorkExperienceTree = () => (
                       <FaLinkedin size={20} className='hover:text-blue-500 transition-all duration-300'/>
                     </div>
                   </div>
-                  <p className="text-gray-100 mt-2 text-sm">{exp.description}</p>
-                  <span className="text-xs text-gray-400">{exp.duration}</span>
+                  <p className="mt-2 text-sm">{exp.description}</p>
+                  <span className="text-xs text-gray-700">{exp.duration}</span>
+                  <div className="mt-3">
+                  <Link to={exp.article} className={`bg-white ${colors['text-light']} text-sm font-semibold px-6 py-2 max-sm:mb-3 rounded-full shadow hover:bg-gray-100 transition duration-300`}>
+                    Read More
+                  </Link>
+                  </div>
                 </div>
               </div>
             ))}
