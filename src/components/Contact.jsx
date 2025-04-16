@@ -1,6 +1,5 @@
 import { Button } from "react-scroll";
 import logo from '../images/contact_image.png';
-import colors from '../documents/colorpalette.json';
 
 const Contact = () => (
     <section id="contact" className="flex items-center justify-center py-20 text-white">
@@ -34,7 +33,7 @@ const Contact = () => (
             className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
             rows={1}
           />
-          <Button className={`bg-white ${colors["text-dark"]} font-bold px-4 py-2 rounded max-sm:w-full max-sm:text-center`}>
+          <Button className={`bg-white text-workspace-dark font-bold px-4 py-2 rounded max-sm:w-full max-sm:text-center`}>
             Send Message
           </Button>
         </form>

@@ -3,9 +3,9 @@ import Box from '@mui/material/Box';
 import Slider from "react-slick";  
 import projects from '../documents/webprojects.json'
 import { FaReact, FaNodeJs, FaPython, FaJs, FaHtml5, FaCss3 } from 'react-icons/fa';
-import colors from '../documents/colorpalette.json';
 
 export default function WebProjects() {
+
 
     const technologies = [
         {
@@ -84,8 +84,8 @@ export default function WebProjects() {
                   }
                 </div>
                 <div className="flex justify-left items-center gap-4">
-                  { project.link && <a href={project.link} className={`${colors['text-light']} text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg`}>View Source Code</a>}
-                  { project.project && <a href={project.project} className={`${colors['text-dark']} text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg`}>View Project</a>}
+                  { project.link && <a href={project.link} className={`bg-workspace-light text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg`}>View Source Code</a>}
+                  { project.project && <a href={project.project} className={`bg-workspace-dark text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg`}>View Project</a>}
                 </div>
               </div>
             </div>
