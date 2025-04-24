@@ -1,4 +1,3 @@
-import { Link } from 'react-scroll';
 import experiences from '../documents/experiences.json'
 import { FaLinkedin, FaFacebook } from 'react-icons/fa';
 
@@ -20,19 +19,19 @@ const WorkExperienceTree = () => (
                   <h3 className="text-xl font-semibold max-sm:text-lg">{exp.position}</h3>
                   <p className="text-gray-700 text-lg">{exp.company}</p>
                   <div className="flex justify-left items-center gap-4 my-3">
-                    <div className="p-2 border rounded-full">
+                    <a href={exp.profiles.facebook} className="p-2 border rounded-full">
                       <FaFacebook size={20} className='hover:text-blue-800 transition-all duration-300'/>
-                    </div>
-                    <div className="p-2 border rounded-full">
+                    </a>
+                    <a href={exp.profiles.linkedin} className="p-2 border rounded-full">
                       <FaLinkedin size={20} className='hover:text-blue-500 transition-all duration-300'/>
-                    </div>
+                    </a>
                   </div>
                   <p className="mt-2 text-sm">{exp.description}</p>
                   <span className="text-xs text-gray-700">{exp.duration}</span>
                   <div className="mt-3">
-                  <Link to={exp.article} className={`bg-white text-workspace-light text-sm font-semibold px-6 py-2 max-sm:mb-3 rounded-full shadow hover:bg-gray-100 transition duration-300`}>
+                  <a href={exp.article} className={`bg-white text-workspace-light text-sm font-semibold px-6 py-2 max-sm:mb-3 rounded-full shadow hover:bg-gray-100 transition duration-300`}>
                     Read More
-                  </Link>
+                  </a>
                   </div>
                 </div>
               </div>
