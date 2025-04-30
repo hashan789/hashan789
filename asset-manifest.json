@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/hashan789/static/css/main.687f3bf1.css",
+    "main.js": "/hashan789/static/js/main.0821c758.js",
+    "static/js/662.cfd01382.chunk.js": "/hashan789/static/js/662.cfd01382.chunk.js",
+    "static/js/453.8bef7985.chunk.js": "/hashan789/static/js/453.8bef7985.chunk.js",
+    "static/js/989.a417bac7.chunk.js": "/hashan789/static/js/989.a417bac7.chunk.js",
+    "static/media/homepage.png": "/hashan789/static/media/homepage.a2594d9ff2984f3715dd.png",
+    "static/media/meme_gen.png": "/hashan789/static/media/meme_gen.fdf5609fe1e844e732fd.png",
+    "static/media/contact_image.png": "/hashan789/static/media/contact_image.016940c19969b2a9f32b.png",
+    "static/media/hashan_malinda_image.jpg": "/hashan789/static/media/hashan_malinda_image.e6c464b6a76a7026b86c.jpg",
+    "static/media/slick.svg": "/hashan789/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/hashan789/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/hashan789/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/hashan789/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/aboutme.txt": "/hashan789/static/media/aboutme.3d0aa16fbbbc5e2c6a92.txt",
+    "index.html": "/hashan789/index.html",
+    "main.687f3bf1.css.map": "/hashan789/static/css/main.687f3bf1.css.map",
+    "main.0821c758.js.map": "/hashan789/static/js/main.0821c758.js.map",
+    "662.cfd01382.chunk.js.map": "/hashan789/static/js/662.cfd01382.chunk.js.map",
+    "453.8bef7985.chunk.js.map": "/hashan789/static/js/453.8bef7985.chunk.js.map",
+    "989.a417bac7.chunk.js.map": "/hashan789/static/js/989.a417bac7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.687f3bf1.css",
+    "static/js/main.0821c758.js"
+  ]
+}
