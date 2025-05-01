@@ -3,8 +3,15 @@ import Box from '@mui/material/Box';
 import Slider from "react-slick";  
 import projects from '../documents/mlprojects.json';
 import { FaReact, FaNodeJs, FaPython, FaJs, FaHtml5, FaCss3 } from 'react-icons/fa';
+import image1 from '../images/chatbot.png';
+import image2 from '../images/email_spam_classifier.png';
 
 export default function MLProjects() {
+
+  const images = [
+      image1,
+      image2
+  ]
 
   const technologies = [
     {
@@ -54,7 +61,7 @@ export default function MLProjects() {
               <div className='w-7/12 max-sm:w-full h-full'>
                 <img
                   className="w-full h-full object-cover"
-                  src={project.image}
+                  src={images[index]}
                   alt={project.title}
                 />
               </div>
@@ -84,7 +91,7 @@ export default function MLProjects() {
                 </div>
                 <div className="flex justify-left items-center gap-4">
                 { project.link && <a href={project.link} className={`bg-workspace-light text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg`}>View Source Code</a>}
-                { project.project && <a href={project.project} className={`bg-workspace-dark' text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg`}>View Project</a>}
+                { project.project && <a href={project.project} className={`bg-workspace-dark text-white text-sm mt-5 mb-5 max-sm:text-xs px-2 py-2 rounded-lg`}>View Project</a>}
                 </div>
               </div>
             </div>

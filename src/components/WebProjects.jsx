@@ -3,9 +3,18 @@ import Box from '@mui/material/Box';
 import Slider from "react-slick";  
 import projects from '../documents/webprojects.json'
 import { FaReact, FaNodeJs, FaPython, FaJs, FaHtml5, FaCss3 } from 'react-icons/fa';
+import image1 from '../images/custom_gpt_image1.png';
+import image2 from '../images/hashsports.png';
+import image3 from '../images/chit_chat.png';
+
 
 export default function WebProjects() {
 
+    const images = [
+        image1,
+        image2,
+        image3
+    ]
 
     const technologies = [
         {
@@ -55,7 +64,7 @@ export default function WebProjects() {
               <div className='w-7/12 max-sm:w-full h-full'>
                 <img
                   className="w-full h-full object-cover"
-                  src={project.image}
+                  src={images[index]}
                   alt={project.title}
                 />
               </div>
