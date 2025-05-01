@@ -1,12 +1,12 @@
 import { Suspense, lazy } from 'react';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import BounceLoader from 'react-spinners/BounceLoader';
 
 const Homepage = lazy(() => import('./components/Homepage'));
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Suspense fallback={
       <div className='w-full h-screen flex justify-center items-center bg-gray-700'>
         <BounceLoader
@@ -20,7 +20,7 @@ const App = () => (
         <Route path="/" element={<Homepage />} />
       </Routes>
     </Suspense>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
