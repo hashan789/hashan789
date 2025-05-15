@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hashan789/static/css/main.7b5f26cd.css",
-    "main.js": "/hashan789/static/js/main.9b421b37.js",
-    "static/js/387.31fadf8b.chunk.js": "/hashan789/static/js/387.31fadf8b.chunk.js",
+    "main.css": "/hashan789/static/css/main.c9c35e13.css",
+    "main.js": "/hashan789/static/js/main.9c534784.js",
+    "static/js/387.46241362.chunk.js": "/hashan789/static/js/387.46241362.chunk.js",
     "static/js/453.8bef7985.chunk.js": "/hashan789/static/js/453.8bef7985.chunk.js",
     "static/js/989.a417bac7.chunk.js": "/hashan789/static/js/989.a417bac7.chunk.js",
     "static/media/footer_image.png": "/hashan789/static/media/footer_image.c03340a7c4aaf3b58dc5.png",
@@ -18,14 +18,14 @@
     "static/media/slick.woff": "/hashan789/static/media/slick.295183786cd8a1389865.woff",
     "static/media/aboutme.txt": "/hashan789/static/media/aboutme.3d0aa16fbbbc5e2c6a92.txt",
     "index.html": "/hashan789/index.html",
-    "main.7b5f26cd.css.map": "/hashan789/static/css/main.7b5f26cd.css.map",
-    "main.9b421b37.js.map": "/hashan789/static/js/main.9b421b37.js.map",
-    "387.31fadf8b.chunk.js.map": "/hashan789/static/js/387.31fadf8b.chunk.js.map",
+    "main.c9c35e13.css.map": "/hashan789/static/css/main.c9c35e13.css.map",
+    "main.9c534784.js.map": "/hashan789/static/js/main.9c534784.js.map",
+    "387.46241362.chunk.js.map": "/hashan789/static/js/387.46241362.chunk.js.map",
     "453.8bef7985.chunk.js.map": "/hashan789/static/js/453.8bef7985.chunk.js.map",
     "989.a417bac7.chunk.js.map": "/hashan789/static/js/989.a417bac7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b5f26cd.css",
-    "static/js/main.9b421b37.js"
+    "static/css/main.c9c35e13.css",
+    "static/js/main.9c534784.js"
   ]
 }
