@@ -1,9 +1,14 @@
 import experiences from '../documents/experiences.json'
 import { FaLinkedin, FaFacebook } from 'react-icons/fa';
+import useInView from '../hooks/useInView';
 
-const WorkExperienceTree = () => (
+function WorkExperienceTree () {
+
+  const [ref, setInView] = useInView({ threshold : 0.5 })
+
+  return(
       <section id="experience" className={`py-20 bg-workspace-dark text-black flex items-center justify-center`}>
-        <div className="container max-sm:block lg:flex items-center justify-evenly gap-4">
+        <div ref={ref} className={`container max-sm:block lg:flex items-center justify-evenly gap-4 transition-all duration-1000 ${ setInView ? 'opacity-100' : 'opacity-0'}`}>
           <div>
           <h2 className="text-3xl font-bold text-center max-sm:text-2xl max-sm:mb-8">Work Experience</h2>
           </div>
@@ -39,7 +44,8 @@ const WorkExperienceTree = () => (
           </div>
         </div>
       </section>
-    );
+    )
+  }
   
   export default WorkExperienceTree;
   
