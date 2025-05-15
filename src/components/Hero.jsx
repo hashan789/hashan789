@@ -2,7 +2,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { Button } from "react-scroll";
 import  downloadCV  from "../context/downloadCV";
-import homepage from '../images/homepage.png';
+import homepage from '../images/footer_image.png';
 import TypingText from "./TypingText";
 
 const Hero = () => (
