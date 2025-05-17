@@ -3,7 +3,7 @@
         "title": "Financial research assistant", 
         "description": "The Financial Research Assistant is a robust, AI-powered solution for analyzing and querying financial reports. Its integration with Azure Blob Storage, combined with advanced NLP capabilities, provides users with efficient, accurate, and relevant insights, significantly enhancing financial data analysis and decision-making processes.", 
         "link": "https://github.com/hashan789/financial-research-assistant" ,
-        "project" : "https://happy-tree-08fe0090f.4.azurestaticapps.net/" ,
+        "project" : "" ,
         "image": "/images/custom_gpt_image1.png",
         "technologies" : [
             {
@@ -40,7 +40,7 @@
         "title": "hashsports", 
         "description": "HashSports is a dynamic eCommerce platform developed using Vite + React, Tailwind CSS, and Express.js. Designed for a seamless and fast user experience, HashSports offers a modern interface with responsive design, ensuring smooth navigation across all devices.It has been utilized Vite and React for blazing-fast loading speeds and a dynamic user interface and Crafted a clean, responsive design with custom animations for an engaging user experience.", 
         "link": "https://github.com/hashan789/hashsports" ,
-        "project" : "https://mango-mud-0b244860f.4.azurestaticapps.net/" ,
+        "project" : "" ,
         "image": "/images/hashsports.png",
         "technologies" : [
             {
