@@ -1,15 +1,15 @@
 import { Suspense, lazy } from 'react';
 import './App.css';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import BounceLoader from 'react-spinners/BounceLoader';
+import HashLoader from 'react-spinners/HashLoader';
 
 const Homepage = lazy(() => import('./components/Homepage'));
 
 const App = () => (
   <HashRouter>
     <Suspense fallback={
-      <div className='w-full h-screen flex justify-center items-center bg-gray-700'>
-        <BounceLoader
+      <div className='w-full h-screen flex justify-center items-center bg-workspace-dark'>
+        <HashLoader
         color="#2430ca"
         cssOverride={{}}
         size={150}
