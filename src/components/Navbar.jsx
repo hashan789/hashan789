@@ -7,23 +7,23 @@ function Navbar(){
   const sections = [
     {
       name: "Home",
-      icon: <Home size={20} className="text-white lg:hidden"/>
+      icon: <Home size={20} className="text-white lg:hidden max-md:inline group-hover:text-workspace-light"/>
     },
     {
       name: "About",
-      icon: <UserCircle size={20} className="text-white lg:hidden"/>
+      icon: <UserCircle size={20} className="text-white lg:hidden max-md:inline group-hover:text-workspace-light"/>
     },
     {
       name: "Experience",
-      icon: <BriefcaseBusiness size={20} className="text-white lg:hidden"/>
+      icon: <BriefcaseBusiness size={20} className="text-white lg:hidden max-md:inline group-hover:text-workspace-light"/>
     },
     {
       name: "Projects",
-      icon: <AppWindow size={20} className="text-white lg:hidden"/>
+      icon: <AppWindow size={20} className="text-white lg:hidden max-md:inline group-hover:text-workspace-light"/>
     },
     {
       name: "Contact",
-      icon: <Mail size={20} className="text-white lg:hidden"/>
+      icon: <Mail size={20} className="text-white lg:hidden max-md:inline group-hover:text-workspace-light"/>
     }
   ]
 
@@ -66,15 +66,15 @@ function Navbar(){
   <nav className={`fixed top-0 w-full ${navColor.shadow} z-10 transition-all duration-300 ${navColor.bg}`}>
     <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
       <h1 className={`text-xl font-bold text-workspace-light`}>Hash78</h1>
-      <div className="lg:hidden sm:hidden max-sm:block" onClick={toggleMenuBar}><Menu size={40} className="text-workspace-light" /></div>
-      <div className={`lg:space-x-6 lg:flex lg:justify-center lg:items-center max-sm:left-0 max-sm:p-4 max-sm:w-full max-sm:h-auto max-sm:bg-gray-600 max-sm:text-sm ${ isShowMenu ? 'max-sm:grid' : 'max-sm:hidden' } transition-all duration-300 max-sm:absolute max-sm:top-20 max-sm:text-white`}>
+      <div className="lg:hidden max-lg:hidden max-md:block max-sm:block" onClick={toggleMenuBar}><Menu size={40} className="text-workspace-light" /></div>
+      <div className={`lg:space-x-6 lg:flex lg:justify-center lg:items-center max-lg:flex max-lg:justify-center max-lg:items-center max-md:left-0 max-md:p-4 max-md:h-screen max-md:bg-black max-md:bg-opacity-50 max-sm:text-sm max-sm:pt-5 ${ isShowMenu ? 'max-sm:block max-md:block' : 'max-sm:hidden max-md:hidden' } transition-all duration-300 max-md:absolute max-md:top-0 max-md:text-white`}>
         {sections.map((section, index) => (
-          <div key={index} className="max-sm:flex max-sm:justify-center max-sm:items-center max-sm:gap-3 max-sm:mb-3">
+          <div key={index} className="max-md:flex group max-md:items-center max-md:gap-3 max-md:mb-3 max-lg:mt-3 max-md:px-4">
             {section.icon}
             <Link
               to={section.name.toLowerCase()}
               smooth
-              className={`cursor-pointer ${navColor.text} hover:text-workspace-light transition-all duration-300`}
+              className={`cursor-pointer ${navColor.text} group-hover:text-workspace-light transition-all duration-300`}
             >
               {section.name}
             </Link>
