@@ -67,9 +67,10 @@ function Navbar(){
     <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
       <h1 className={`text-xl font-bold text-workspace-light`}>Hash78</h1>
       <div className="lg:hidden max-lg:hidden max-md:block max-sm:block" onClick={toggleMenuBar}><Menu size={40} className="text-workspace-light" /></div>
-      <div className={`lg:space-x-6 lg:flex lg:justify-center lg:items-center max-lg:flex max-lg:justify-center max-lg:items-center max-md:left-0 max-md:p-4 max-md:h-screen max-md:bg-black max-md:bg-opacity-50 max-sm:text-sm max-sm:pt-5 ${ isShowMenu ? 'max-sm:block max-md:block' : 'max-sm:hidden max-md:hidden' } transition-all duration-300 max-md:absolute max-md:top-0 max-md:text-white`}>
+      <div className={`lg:space-x-6 lg:flex lg:justify-center lg:items-center max-lg:flex max-lg:justify-center max-lg:items-center max-md:left-0 max-md:p-4 max-md:h-screen max-md:bg-black max-sm:text-sm max-md:pt-5 max-md:block max-md:w-1/2 ${ isShowMenu ? 'max-md:translate-x-0' : 'max-md:-translate-x-full' } transition-all duration-300 max-md:absolute max-md:top-0 max-md:text-white`}>
+      <div className="max-md:text-lg max-md:font-bold max-md:text-workspace-light max-md:block md:hidden max-md:pt-4 max-md:pl-4">Hash78</div>
         {sections.map((section, index) => (
-          <div key={index} className="max-md:flex group max-md:items-center max-md:gap-3 max-md:mb-3 max-lg:mt-3 max-md:px-4">
+          <div key={index} className="max-md:flex group max-md:items-center max-md:gap-3 max-md:mb-5 max-lg:mt-3 max-md:px-4">
             {section.icon}
             <Link
               to={section.name.toLowerCase()}
