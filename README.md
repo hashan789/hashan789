@@ -11,7 +11,7 @@
 </p>
 
 
-<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=hashan789&show_icons=true&locale=en&layout=compact" alt="hashan789" style="width:100vw;"/></p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=hashan789&show_icons=true&locale=en&layout=compact" alt="hashan789"/></p>
 
 <!---<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hashan789&show_icons=true&locale=en" alt="hashan789" /></p>--->
 
