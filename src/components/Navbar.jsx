@@ -29,7 +29,7 @@ function Navbar(){
 
   const [ isShowMenu, setIsShowMenu ] = useState(false);
   const [navColor, setNavColor] = useState({
-    text : "text-white",
+    text : "lg:text-black max-md:text-white",
     bg : " ",
     shadow : " "
   });
@@ -44,7 +44,7 @@ function Navbar(){
         }); // Change to any color
       } else {
         setNavColor({
-          text : "text-white",
+          text : "lg:text-black max-md:text-white",
           bg : " ",
           shadow : " "
         }); // Default color
