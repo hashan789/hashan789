@@ -8,9 +8,9 @@ const Homepage = lazy(() => import('./components/Homepage'));
 const App = () => (
   <HashRouter>
     <Suspense fallback={
-      <div className='w-full h-screen flex justify-center items-center bg-workspace-dark'>
+      <div className='w-full h-screen flex justify-center items-center bg-white'>
         <HashLoader
-        color="#2430ca"
+        color="#d97706"
         cssOverride={{}}
         size={150}
       />
