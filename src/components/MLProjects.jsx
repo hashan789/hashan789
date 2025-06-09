@@ -53,7 +53,7 @@ export default function MLProjects() {
 
   return (
     <div>
-        <Box className="font-poppins mx-auto mt-4 p-4">
+        <Box className="mx-auto mt-4 p-4">
       <Slider {...settings}>
         {projects.map((project, index) => (
           <div key={index} className="p-4">
@@ -66,26 +66,23 @@ export default function MLProjects() {
                 />
               </div>
               <div className="w-5/12 max-sm:w-full p-5 ml-5">
-                <h5 className="font-poppins font-bold mb-5">
+                <h5 className="font-bold mb-5">
                   {project.title}
                 </h5>
-                <p className="font-poppins text-gray-600 mb-5 max-sm:text-sm">
+                <p className="text-gray-600 mb-5 max-sm:text-sm">
                   {project.description}
                 </p>
                 <div className='flex justify-left items-center mb-5 gap-5'>
                   {
                     project.technologies.map((technology,index) => (
-                      <div key={index} className={`p-2 border rounded-full`} >
-                        {
-                          technologies.map((tech, subIndex) => (
-                            <div key={subIndex} className="">
-                              {technology.language === tech.name && 
-                                  tech.icon
-                              }
-                            </div>
-                          ))
-                        }
-                      </div>
+                        technologies.map((tech, subIndex) => (
+                              technology.language === tech.name &&  
+                              <div key={index} className={`p-2 border rounded-full`} >
+                                <div key={subIndex} className="">
+                                      {tech.icon}
+                                </div>
+                              </div>    
+                        ))     
                     ))
                   }
                 </div>
