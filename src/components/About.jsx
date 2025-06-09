@@ -25,12 +25,14 @@ function About () {
 
   return (
     <section id="about" className="py-20">
-      <div ref={ref} className={`max-md:block lg:flex max-lg:flex justify-evenly items-center max-sm:text-center transition-all duration-1000 ${ setInView ? 'opacity-100' : 'opacity-0'}`}>
-        <div className="w-48 h-48 rounded-full border max-sm:w-0 max-sm:h-0" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
+      <div ref={ref} className={`max-md:block lg:flex max-lg:flex justify-evenly items-center max-md:text-center transition-all duration-1000 ${ setInView ? 'opacity-100' : 'opacity-0'}`}>
+        <div className="w-48 h-48 rounded-full border max-md:w-0 max-md:h-0" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
         <div className={`sm:block align-left`}>
         <h2 className="text-3xl font-bold mb-4 text-center">About Me</h2>
-        <div className="w-0 h-0 rounded-full border max-sm:w-32 max-sm:h-32 max-sm:relative max-sm:left-1/3 max-sm:mb-5" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
-        <p className="text-gray-700 max-w-2xl max-sm:mx-5 max-sm:text-xs">
+        <div className="w-0 h-0 max-md:w-full max-md:h-1/4 max-md:flex max-md:justify-center max-md:items-center">
+          <div className="w-0 h-0 rounded-full border max-md:w-32 max-md:h-32 max-md:mb-5" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
+        </div>
+        <p className="text-gray-700 max-w-2xl max-md:mx-5 max-md:text-xs">
           {text.split('#')[0]}
         </p>
         </div>
