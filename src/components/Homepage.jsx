@@ -9,7 +9,7 @@ import Footer from './Footer'
 
 export default function Homepage() {
   return (
-    <div className="font-poppins bg-white">
+    <div className="font-inter bg-white">
       <Navbar />
       <Hero />
       <About />
