@@ -7,7 +7,7 @@ function WorkExperienceTree () {
   const [ref, setInView] = useInView({ threshold : 0.5 })
 
   return(
-      <section id="experience" className={`py-20 bg-workspace-light text-black flex items-center justify-center`}>
+      <section id="experience" className={`py-20 m-5 rounded-2xl bg-workspace-light text-black flex items-center justify-center`}>
         <div ref={ref} className={`container max-sm:block lg:flex items-center justify-evenly gap-4 transition-all duration-1000 ${ setInView ? 'opacity-100' : 'opacity-0'}`}>
           <div>
           <h2 className="text-3xl font-bold text-center max-sm:text-2xl max-sm:mb-8">Work Experience</h2>
