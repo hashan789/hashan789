@@ -73,7 +73,7 @@ function Navbar(){
           <div key={index} className="max-md:flex group max-md:items-center max-md:gap-3 max-md:mb-5 max-lg:mt-3 max-md:px-4">
             {section.icon}
             <Link
-              to={section.name.toLowerCase()}
+              to={section?.name?.toLowerCase()}
               smooth
               className={`cursor-pointer ${navColor.text} group-hover:text-workspace-light transition-all duration-300`}
             >

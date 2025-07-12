@@ -10,7 +10,7 @@ function WorkExperienceTree () {
       <section id="experience" className={`py-20 m-5 rounded-2xl bg-workspace-light text-black flex items-center justify-center`}>
         <div ref={ref} className={`container max-sm:block lg:flex items-center justify-evenly gap-4 transition-all duration-1000 ${ setInView ? 'opacity-100' : 'opacity-0'}`}>
           <div>
-          <h2 className="text-3xl font-bold text-center max-sm:text-2xl max-sm:mb-8">Work Experience</h2>
+          <h2 className="lg:text-5xl max-lg:text-2xl font-bold text-center max-sm:mb-8">Work Experience</h2>
           </div>
           <div className="max-w-xl pl-8 space-y-10">
             {experiences.map((exp, index) => (

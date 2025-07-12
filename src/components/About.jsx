@@ -26,9 +26,9 @@ function About () {
   return (
     <section id="about" className="lg:py-20 max-md:pb-20">
       <div ref={ref} className={`max-md:block lg:flex max-lg:flex justify-evenly items-center max-md:text-center transition-all duration-1000 ${ setInView ? 'opacity-100' : 'opacity-0'}`}>
-        <div className="w-48 h-48 rounded-full border max-md:w-0 max-md:h-0" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
+        <div className="w-[250px] h-[250px] rounded-lg border max-md:w-0 max-md:h-0" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
         <div className={`sm:block align-left`}>
-        <h2 className="text-3xl font-bold mb-4 text-center">About Me</h2>
+        <h2 className="lg:text-5xl max-lg:text-2xl font-bold mb-[50px] lg:text-left max-lg:text-center">About Me</h2>
         <div className="w-0 h-0 max-md:w-full max-md:h-1/4 max-md:flex max-md:justify-center max-md:items-center">
           <div className="w-0 h-0 rounded-full border max-md:w-32 max-md:h-32 max-md:mb-5" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
         </div>

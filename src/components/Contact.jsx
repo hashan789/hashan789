@@ -38,7 +38,7 @@ function Contact () {
         <p className="text-sm">Let{"’"}s build something amazing together! 🚀</p>
       </div>
       <div className="w-6/12 max-sm:w-full block p-20">
-        <h2 className="text-3xl text-center font-bold mb-6">Contact Me</h2>
+        <h2 className="lg:text-5xl max-lg:text-2xl text-center font-bold mb-6">Contact Me</h2>
         <form className="" onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
           <input

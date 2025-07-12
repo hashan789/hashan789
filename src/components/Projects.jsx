@@ -14,7 +14,7 @@ function Projects(){
   return(
   <section id="projects" className="py-20">
       <div ref={ref} className={`transition-all duration-1000 ${ setInView ? 'opacity-100' : 'opacity-0'}`}> 
-        <div className="text-3xl text-center font-bold mb-6">Projects</div>
+        <div className="lg:text-5xl max-lg:text-2xl text-center font-bold mb-[50px]">Projects</div>
         <div className="flex justify-around items-center">
           <h2 className={`px-5 py-2 cursor-pointer ${section === "Web" ? 'text-workspace-dark' :  'text-black' } font-semibold lg:text-xl max-sm:text-sm`} onClick={() => setSection("Web")}>Web Development</h2>
           <h2 className={`px-5 py-2 cursor-pointer ${section === "ML" ? 'text-workspace-dark' :  'text-black' } font-semibold lg:text-xl max-sm:text-sm`} onClick={() => setSection("ML")}>Machine Learning</h2>

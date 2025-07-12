@@ -22,9 +22,6 @@ const SpecialProject = () => (
             Say hello to <b>Meme Gen</b>, the easiest and fastest way to turn your ideas into viral-worthy memes!
           </p>
           <div className="mt-6 lg:flex max-sm:grid justify-center md:justify-start lg:gap-4">
-            <Link to={"https://zealous-forest-0458eb40f.4.azurestaticapps.net/"} className={`bg-white text-workspace-dark text-sm font-semibold px-6 py-2 max-sm:mb-3 rounded-full shadow hover:bg-gray-100 transition duration-300`}>
-              Try Now 🚀
-            </Link>
             <Link to={"https://github.com/hashan789/Meme-Gen"} className={`bg-white text-workspace-light text-sm font-semibold px-6 py-2 rounded-full shadow hover:bg-gray-100 transition duration-300`}>
               View Source Code
             </Link>
