@@ -24,7 +24,7 @@ function About () {
   }, []);
 
   return (
-    <section id="about" className="lg:py-20 max-md:pb-20">
+    <section id="about" className="lg:py-20 max-md:pb-20 max-md:py-[50px]">
       <div ref={ref} className={`max-md:block lg:flex max-lg:flex justify-evenly items-center max-md:text-center transition-all duration-1000 ${ setInView ? 'opacity-100' : 'opacity-0'}`}>
         <div className="w-[250px] h-[250px] rounded-lg border max-md:w-0 max-md:h-0" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
         <div className={`sm:block align-left`}>

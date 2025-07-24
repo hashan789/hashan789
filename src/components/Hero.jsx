@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
-import { Button } from "react-scroll";
+import { FaGithub, FaLinkedin, FaMedium, FaUserAstronaut } from "react-icons/fa";
+import { Button, Link } from "react-scroll";
 import  downloadCV  from "../context/downloadCV";
 import TypingText from "./TypingText";
 import logo from "../images/portfolio-hashan.png"
@@ -8,7 +8,7 @@ const Hero = () => (
   <section id="home" className="container h-screen max-sm:bg-center max-sm:bg-cover flex justify-center items-center text-black">
   <div className="lg:w-1/2 max-lg:w-full lg:text-left max-lg:text-center">
     <div className="lg:hidden max-lg:w-full flex lg:justify-end max-lg:justify-center items-center my-4">
-      <img src={logo} alt="logo" className="w-[125px] h-auto "/>
+      <img src={logo} alt="logo" className="w-[40vw] h-auto mt-[25px]"/>
     </div>
     <h1 className="lg:text-6xl max-lg:text-4xl font-bold mb-4 animation-fade-in space-y-4">
       I'm <div className=" text-workspace-light my-[5px] lg:text-5xl max-lg:text-2xl"><TypingText /></div>
@@ -29,11 +29,21 @@ const Hero = () => (
         <FaMedium />
       </a>
     </div>
-    <Button smooth className={`hover:border-workspace-light hover:bg-white bg-workspace-light border-[1px] w-36 font-semibold h-10 rounded-md hover:text-workspace-light text-white transition-all duration-300 mt-5`} onClick={downloadCV}>Download CV</Button>
+    <div className="flex lg:justify-start max-lg:justify-center items-center gap-[20px]">
+      <Button smooth className={`hover:border-workspace-light hover:bg-white bg-workspace-light border-[1px] w-36 font-semibold h-10 rounded-full hover:text-workspace-light text-white transition-all duration-300 mt-5`} onClick={downloadCV}>Download CV</Button>
+      <Link to={'about'} className={`border-workspace-light bg-white hover:bg-workspace-light border-[1px] w-36 font-semibold h-10 rounded-full text-workspace-light hover:text-white transition-all duration-300 mt-5 flex justify-center items-center`}>About Me</Link>
+    </div>
   </div>
-  <div className="lg:w-1/3 max-lg:hidden flex justify-end items-center">
-    <img src={logo} alt="logo" className="w-[300px] h-auto "/>
+  <div className="lg:w-1/3 max-lg:hidden flex justify-end items-center relative">
+    <img src={logo} alt="logo" className="w-[400px] h-auto z-10"/>
+    <div className="px-[50px] py-[10px] rounded-full text-lg bg-workspace-light  text-white flex absolute left-0 top-5">Web developer</div>
+    <div className="px-[100px] py-[10px] rounded-full text-lg bg-workspace-light text-white flex absolute left-2/3 bottom-1/3">Freelancer</div>
   </div>
+
+  <div className="lg:w-[200px] lg:h-[200px] max-lg:w-[150px] max-lg:h-[150px] rounded-full bg-workspace-light absolute -top-14 -left-14">
+  </div>
+
+  <FaUserAstronaut size={50} className="text-black absolute right-10 top-10"/>
   </section>
 );
 
