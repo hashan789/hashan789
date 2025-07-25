@@ -1,0 +1,14 @@
+I’m a passionate and results-driven developer specializing in Web Development, Cloud Computing, 
+and Machine Learning. With a strong foundation in the MERN stack, 
+I build scalable, responsive web applications that deliver seamless user experiences.
+
+I bring deep expertise in Microsoft Azure, developing and deploying cloud-native solutions 
+with a focus on performance and scalability. 
+My experience also extends to building intelligent systems using Python, TensorFlow, LangChain, and frameworks 
+like Flask and FastAPI, enabling me to craft robust AI-powered applications.
+
+In addition to backend and AI skills, I’m well-versed in DevOps practices and have a keen eye for 
+UI/UX design, working with tools like Figma to bridge functionality and design.
+
+Whether it's building full-stack apps, integrating cloud infrastructure, or creating intelligent services, 
+I thrive on turning complex challenges into elegant solutions.
