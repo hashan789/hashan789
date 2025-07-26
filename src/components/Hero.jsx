@@ -11,7 +11,7 @@ const Hero = () => (
       <img src={logo} alt="logo" className="w-[40vw] h-auto mt-[25px]"/>
     </div>
     <h1 className="lg:text-6xl max-lg:text-4xl font-bold mb-4 animation-fade-in space-y-4">
-      I'm <div className=" text-workspace-light my-[5px] lg:text-5xl max-lg:text-2xl"><TypingText /></div>
+      I'm Hashan<div className=" text-workspace-light my-[5px] lg:text-5xl max-lg:text-2xl"><TypingText /></div>
     </h1>
     <div className="flex lg:justify-start max-lg:justify-center items-center space-x-4 mt-4 lg:text-lg max-lg:text-sm max-lg:px-[10%]">
       <p>
@@ -43,7 +43,7 @@ const Hero = () => (
   <div className="lg:w-[200px] lg:h-[200px] max-lg:w-[150px] max-lg:h-[150px] rounded-full bg-workspace-light absolute -top-14 -left-14">
   </div>
 
-  <FaUserAstronaut size={50} className="text-black absolute right-10 top-10"/>
+  <FaUserAstronaut size={50} className="text-black lg:block max-lg:hidden absolute right-10 top-10"/>
   </section>
 );
 

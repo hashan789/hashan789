@@ -4,13 +4,15 @@ import Slider from "react-slick";
 import projects from '../documents/mlprojects.json';
 import { FaReact, FaNodeJs, FaPython, FaJs, FaHtml5, FaCss3 } from 'react-icons/fa';
 import image1 from '../images/chatbot.png';
-import image2 from '../images/email_spam_classifier.png';
+import image2 from '../images/custom_gpt_image1.png';
+import image3 from '../images/doc_query_ai.png';
 
 export default function MLProjects() {
 
   const images = [
       image1,
-      image2
+      image2,
+      image3
   ]
 
   const technologies = [

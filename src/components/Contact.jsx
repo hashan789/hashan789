@@ -1,31 +1,31 @@
 
 import logo from '../images/footer_image.png';
-import { useState } from "react";
-import { useEmailState } from "../stores/useEmailState";
-import toast, { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import useInView from '../hooks/useInView';
+import { sendEmail } from '../context/sendEmail';
+import { useRef } from 'react';
 
 function Contact () {
 
-  const [ email, setEmail ] = useState({
-    email: "",
-    message: "",
-    name: ""
-  })
-
   const [ref, setInView] = useInView({ threshold : 0.5 })
 
-  const { loading, sendEmail } = useEmailState();
+  const form = useRef()
+  const name = useRef()
+  const email = useRef()
+  const message = useRef()
+
+  let loading = false
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    sendEmail(email);
+    loading = true
 
-    if(!email.name || !email.email || !email.message){
-      toast.error("Please fill all the fields");
-      return;
-    }
+    loading = sendEmail(form);
+
+    name.current.value = ''
+    email.current.value = ''
+    message.current.value = ''
     
   }
 
@@ -39,32 +39,32 @@ function Contact () {
       </div>
       <div className="w-6/12 max-sm:w-full block p-20">
         <h2 className="lg:text-5xl max-lg:text-2xl text-center font-bold mb-6">Contact Me</h2>
-        <form className="" onSubmit={handleSubmit}>
+        <form ref={form} className="" onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
           <input
+            ref={name}
             id="name"
             name="name"
             type="text"
             placeholder=""
             className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
-            onChange={(e) => setEmail({ ...email, name: e.target.value })}
           />
           <label htmlFor="email">Email</label>
           <input
+            ref={email}
             id="email"
             name="email"
             type="email"
             placeholder=""
             className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
-            onChange={(e) => setEmail({ ...email, email: e.target.value })}
           />
           <label htmlFor="message">Message</label>
           <textarea
+            ref={message}
             id="message"
             name="message"
             placeholder=""
             className="w-full p-2 mb-4 text-sm text-black border border-gray-300 rounded"
-            onChange={(e) => setEmail({ ...email, message: e.target.value })}
             rows={1}
           />
           <button className={`bg-white text-workspace-dark font-bold px-4 py-2 rounded max-sm:w-full max-sm:text-center`}>
