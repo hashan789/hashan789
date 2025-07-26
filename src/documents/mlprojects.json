@@ -25,27 +25,72 @@
         ] 
     },
     { 
-        "title": "Email spam classifier", 
-        "description": "Email spam classifier is a web application designed to automatically categorize incoming emails as either 'spam' or 'ham'. The user interface of this application is built using flask. This is a text classification problem where the model learns to distinguish between legitimate and harmful emails based on their content and features.", 
-        "link": "https://github.com/hashan789/Email-Spam-Classifier" , 
-        "project": "",
-        "image": "/images/email_spam_classifier.png",
+        "title": "Financial Research Assistant", 
+        "description": "The Financial Research Assistant is a robust, AI-powered solution for analyzing and querying financial reports. Its integration with Azure Blob Storage, combined with advanced NLP capabilities, provides users with efficient, accurate, and relevant insights, significantly enhancing financial data analysis and decision-making processes.", 
+        "link": "https://github.com/hashan789/financial-research-assistant" ,
+        "project" : "" ,
+        "image": "/images/custom_gpt_image1.png",
         "technologies" : [
             {
-                "language" : "HTML5",
-                "color" : "#f34122"
+                "language" : "React",
+                "color" : "#0000ff"
             },
             {
-                "language" : "JavaScript",
-                "color" : "#e1f10b"
+                "language" : "Node.js",
+                "color" : "#008000"
+            },
+            {
+                "language" : "Python",
+                "color" : "#27a3a3"
             },
             {
                 "language" : "CSS3",
                 "color" : "#800080"
             },
             {
+                "language" : "Express JS",
+                "color" : "#000000"
+            },
+            {
+                "language" : "Mongo DB",
+                "color" : "#72db72"
+            },
+            {
+                "language" : "Azure",
+                "color" : "#0072c6"
+            }
+        ] 
+    },
+    { 
+        "title": "Document Query AI Agent", 
+        "description": "The Document Query AI Agent is an intelligent application designed to extract accurate, context-aware answers from uploaded documents in response to user queries. Built using a modern tech stack—React.js, Tailwind CSS, Python, Flask, and LangChain—this solution integrates advanced AI capabilities with a clean and responsive frontend.", 
+        "link": "https://github.com/hashan789/docQueryAI" ,
+        "project" : "" ,
+        "image": "/images/doc_query_ai.png",
+        "technologies" : [
+            {
+                "language" : "React",
+                "color" : "#0000ff"
+            },
+            {
+                "language" : "Node.js",
+                "color" : "#008000"
+            },
+            {
                 "language" : "Python",
                 "color" : "#27a3a3"
+            },
+            {
+                "language" : "CSS3",
+                "color" : "#800080"
+            },
+            {
+                "language" : "Express JS",
+                "color" : "#000000"
+            },
+            {
+                "language" : "Mongo DB",
+                "color" : "#72db72"
             },
             {
                 "language" : "Azure",
