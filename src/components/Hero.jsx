@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaMedium, FaUserAstronaut } from "react-icons/fa"
 import { Button, Link } from "react-scroll";
 import  downloadCV  from "../context/downloadCV";
 import TypingText from "./TypingText";
-import logo from "../images/portfolio-hashan.png"
+import logo from "../images/portfolio-image.png"
 
 const Hero = () => (
   <section id="home" className="container h-screen max-sm:bg-center max-sm:bg-cover flex justify-center items-center text-black">
@@ -35,15 +35,15 @@ const Hero = () => (
     </div>
   </div>
   <div className="lg:w-1/3 max-lg:hidden flex justify-end items-center relative">
-    <img src={logo} alt="logo" className="w-[400px] h-auto z-10"/>
-    <div className="px-[50px] py-[10px] rounded-full text-lg bg-workspace-light  text-white flex absolute left-0 top-5">Web developer</div>
-    <div className="px-[100px] py-[10px] rounded-full text-lg bg-workspace-light text-white flex absolute left-2/3 bottom-1/3">Freelancer</div>
+    <img src={logo} alt="logo" className="w-[400px] h-auto z-10 relative"/>
+    <div className="px-[50px] py-[10px] rounded-full text-lg bg-workspace-light  text-white flex absolute -left-3 bottom-1/2">Web developer</div>
+    <div className="px-[100px] py-[10px] rounded-full text-lg bg-workspace-light text-white flex absolute left-[70%] bottom-1/3">Freelancer</div>
   </div>
 
   <div className="lg:w-[200px] lg:h-[200px] max-lg:w-[150px] max-lg:h-[150px] rounded-full bg-workspace-light absolute -top-14 -left-14">
   </div>
 
-  <FaUserAstronaut size={50} className="text-black lg:block max-lg:hidden absolute right-10 top-10"/>
+  
   </section>
 );
 
