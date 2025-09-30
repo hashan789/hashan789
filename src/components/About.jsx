@@ -32,7 +32,7 @@ function About () {
         <div className="w-0 h-0 max-md:w-full max-md:h-1/4 max-md:flex max-md:justify-center max-md:items-center max-lg:flex max-lg:justify-center max-lg:items-center">
           <div className="w-0 h-0 rounded-full border max-md:w-32 max-md:h-32 max-md:mb-5" style={{ backgroundImage : `url(${portfolio_image})` , backgroundPosition : 'center' , backgroundSize : 'cover', backgroundRepeat : 'no-repeat'}}></div>
         </div>
-        <p className="text-gray-700 max-w-2xl max-md:mx-5 max-md:text-xs">
+        <p className="text-gray-700 max-w-2xl max-md:mx-5 max-md:text-xs max-md:text-center">
           {text.split('#')[0]}
         </p>
         </div>
