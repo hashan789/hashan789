@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaMedium, FaUserAstronaut } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { Button, Link } from "react-scroll";
 import  downloadCV  from "../context/downloadCV";
 import TypingText from "./TypingText";
