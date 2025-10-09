@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/hashan789/static/css/main.d5d2ac74.css",
-    "main.js": "/hashan789/static/js/main.f37a8411.js",
-    "static/js/567.ac2b6a49.chunk.js": "/hashan789/static/js/567.ac2b6a49.chunk.js",
+    "main.js": "/hashan789/static/js/main.e0ee2d0c.js",
+    "static/js/56.cd4c64d7.chunk.js": "/hashan789/static/js/56.cd4c64d7.chunk.js",
     "static/js/453.d26af2e8.chunk.js": "/hashan789/static/js/453.d26af2e8.chunk.js",
     "static/js/855.8bc4ecff.chunk.js": "/hashan789/static/js/855.8bc4ecff.chunk.js",
     "static/media/visitsrilanka.png": "/hashan789/static/media/visitsrilanka.0d74483bb6b9516e34dd.png",
     "static/media/services_assistant.png": "/hashan789/static/media/services_assistant.3b373cefe8c254401562.png",
     "static/media/footer_image.png": "/hashan789/static/media/footer_image.c03340a7c4aaf3b58dc5.png",
+    "static/media/hashsports-ecommerce.png": "/hashan789/static/media/hashsports-ecommerce.1fdadadf3270db8c9d88.png",
     "static/media/hashsports.png": "/hashan789/static/media/hashsports.59b674c1d65c962910d4.png",
     "static/media/chatbot.png": "/hashan789/static/media/chatbot.f3a8ed1bbf0985b0d117.png",
     "static/media/chit_chat.png": "/hashan789/static/media/chit_chat.3901d2941c73c32b80a9.png",
@@ -22,13 +23,13 @@
     "static/media/aboutme.txt": "/hashan789/static/media/aboutme.b948c57919d7ca472e7c.txt",
     "index.html": "/hashan789/index.html",
     "main.d5d2ac74.css.map": "/hashan789/static/css/main.d5d2ac74.css.map",
-    "main.f37a8411.js.map": "/hashan789/static/js/main.f37a8411.js.map",
-    "567.ac2b6a49.chunk.js.map": "/hashan789/static/js/567.ac2b6a49.chunk.js.map",
+    "main.e0ee2d0c.js.map": "/hashan789/static/js/main.e0ee2d0c.js.map",
+    "56.cd4c64d7.chunk.js.map": "/hashan789/static/js/56.cd4c64d7.chunk.js.map",
     "453.d26af2e8.chunk.js.map": "/hashan789/static/js/453.d26af2e8.chunk.js.map",
     "855.8bc4ecff.chunk.js.map": "/hashan789/static/js/855.8bc4ecff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5d2ac74.css",
-    "static/js/main.f37a8411.js"
+    "static/js/main.e0ee2d0c.js"
   ]
 }
