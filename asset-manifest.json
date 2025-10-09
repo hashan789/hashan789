@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hashan789/static/css/main.d5d2ac74.css",
-    "main.js": "/hashan789/static/js/main.4e6914c4.js",
-    "static/js/567.dd642760.chunk.js": "/hashan789/static/js/567.dd642760.chunk.js",
+    "main.js": "/hashan789/static/js/main.f37a8411.js",
+    "static/js/567.ac2b6a49.chunk.js": "/hashan789/static/js/567.ac2b6a49.chunk.js",
     "static/js/453.d26af2e8.chunk.js": "/hashan789/static/js/453.d26af2e8.chunk.js",
     "static/js/855.8bc4ecff.chunk.js": "/hashan789/static/js/855.8bc4ecff.chunk.js",
     "static/media/visitsrilanka.png": "/hashan789/static/media/visitsrilanka.0d74483bb6b9516e34dd.png",
@@ -22,13 +22,13 @@
     "static/media/aboutme.txt": "/hashan789/static/media/aboutme.b948c57919d7ca472e7c.txt",
     "index.html": "/hashan789/index.html",
     "main.d5d2ac74.css.map": "/hashan789/static/css/main.d5d2ac74.css.map",
-    "main.4e6914c4.js.map": "/hashan789/static/js/main.4e6914c4.js.map",
-    "567.dd642760.chunk.js.map": "/hashan789/static/js/567.dd642760.chunk.js.map",
+    "main.f37a8411.js.map": "/hashan789/static/js/main.f37a8411.js.map",
+    "567.ac2b6a49.chunk.js.map": "/hashan789/static/js/567.ac2b6a49.chunk.js.map",
     "453.d26af2e8.chunk.js.map": "/hashan789/static/js/453.d26af2e8.chunk.js.map",
     "855.8bc4ecff.chunk.js.map": "/hashan789/static/js/855.8bc4ecff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5d2ac74.css",
-    "static/js/main.4e6914c4.js"
+    "static/js/main.f37a8411.js"
   ]
 }
