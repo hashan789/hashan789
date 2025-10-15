@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm hashan malinda</h1>
 <h3 align="center">Full stack developer and AI enthusiastic</h3>
 
-- 🔭 I’m currently working on **helios**
-
 - 🌱 I’m currently learning **Typescript, python and Artificial Intelligence**
 
 - 💬 Ask me about **react and python**
