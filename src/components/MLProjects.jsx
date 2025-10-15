@@ -3,16 +3,19 @@ import Box from '@mui/material/Box';
 import Slider from "react-slick";  
 import projects from '../documents/mlprojects.json';
 import { FaReact, FaNodeJs, FaPython, FaJs, FaHtml5, FaCss3 } from 'react-icons/fa';
+import { SiTypescript, SiNextdotjs, SiSupabase, SiRedis, SiTensorflow, SiOpenai, SiPrisma, SiExpress, SiTailwindcss, SiLangchain } from 'react-icons/si';
 import image1 from '../images/chatbot.png';
 import image2 from '../images/custom_gpt_image1.png';
 import image3 from '../images/doc_query_ai.png';
+import image4 from '../images/services_assistant.png';
 
 export default function MLProjects() {
 
   const images = [
       image1,
       image2,
-      image3
+      image3,
+      image4
   ]
 
   const technologies = [
@@ -39,6 +42,46 @@ export default function MLProjects() {
     {
         name: "CSS3",
         icon: <FaCss3 className='text-blue-600' />
+    },
+    {
+        name: "TypeScript",
+        icon: <SiTypescript className='text-blue-600' />
+    },
+    {
+        name: "Next",
+        icon: <SiNextdotjs className='text-black' />
+    },
+    {
+        name: "Supabase",
+        icon: <SiSupabase className='text-blue-600' />
+    },
+    {
+        name: "Redis",
+        icon: <SiRedis className='text-blue-600' />
+    },
+    {
+        name: "TensorFlow",
+        icon: <SiTensorflow className='text-amber-600' />
+    },
+    {
+        name: "Openai",
+        icon: <SiOpenai className='text-black' />
+    },
+    {
+        name: "Prisma",
+        icon: <SiPrisma className='text-black' />
+    },
+    {
+        name: "Express JS",
+        icon: <SiExpress className='text-black' />
+    },
+    {
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss className='text-black' />
+    },
+    {
+        name: "Langchain",
+        icon: <SiLangchain className='text-black' />
     }
   ]
   
@@ -74,12 +117,12 @@ export default function MLProjects() {
                 <p className="text-gray-600 mb-5 max-sm:text-sm">
                   {project.description}
                 </p>
-                <div className='flex justify-left items-center mb-5 gap-5'>
+                <div className='lg:flex lg:justify-left lg:items-center max-lg:inline-grid max-lg:grid-cols-5 max-lg:gap-3 mb-5 lg:gap-5'>
                   {
                     project.technologies.map((technology,index) => (
                         technologies.map((tech, subIndex) => (
                               technology.language === tech.name &&  
-                              <div key={index} className={`p-2 border rounded-full`} >
+                              <div key={index} className={`p-2 rounded-full border`} >
                                 <div key={subIndex} className="">
                                       {tech.icon}
                                 </div>

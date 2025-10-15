@@ -3,9 +3,12 @@ import Box from '@mui/material/Box';
 import Slider from "react-slick";  
 import projects from '../documents/webprojects.json'
 import { FaReact, FaNodeJs, FaPython, FaJs, FaHtml5, FaCss3 } from 'react-icons/fa';
-import image1 from '../images/custom_gpt_image1.png';
-import image2 from '../images/hashsports.png';
-import image3 from '../images/chit_chat.png';
+import { SiRedis, SiExpress, SiSocketdotio, SiMongodb, SiTailwindcss, SiLangchain, SiMysql, SiPhp } from 'react-icons/si';
+import image1 from '../images/hashsports-ecommerce.png';
+import image2 from '../images/visitsrilanka.png';
+import image3 from '../images/memegen.png';
+import image4 from '../images/hashsports.png'
+import image5 from '../images/chit_chat.png';
 
 
 export default function WebProjects() {
@@ -13,7 +16,9 @@ export default function WebProjects() {
     const images = [
         image1,
         image2,
-        image3
+        image3,
+        image4,
+        image5
     ]
 
     const technologies = [
@@ -40,6 +45,38 @@ export default function WebProjects() {
         {
             name: "CSS3",
             icon: <FaCss3 className='text-blue-600' />
+        },
+        {
+            name: "Redis",
+            icon: <SiRedis className='text-red-600' />
+        },
+        {
+            name: "Express JS",
+            icon: <SiExpress className='text-black' />
+        },
+        {
+            name: "Socket.io",
+            icon: <SiSocketdotio className='text-black' />
+        },
+        {
+            name: "Mongo DB",
+            icon: <SiMongodb className='text-black' />
+        },
+        {
+            name: "Tailwind CSS",
+            icon: <SiTailwindcss className='text-black' />
+        },
+        {
+            name: "Langchain",
+            icon: <SiLangchain className='text-black' />
+        },
+        {
+            name: "MySQL",
+            icon: <SiMysql className='text-black' />
+        },
+        {
+            name: "php",
+            icon: <SiPhp className='text-purple-600' />
         }
     ]
 
