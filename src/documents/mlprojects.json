@@ -21,6 +21,10 @@
             {
                 "language" : "Azure",
                 "color" : "#0072c6"
+            },
+            {
+                "language" : "TensorFlow",
+                "color" : "#0072c6"
             }
         ] 
     },
@@ -44,7 +48,7 @@
                 "color" : "#27a3a3"
             },
             {
-                "language" : "CSS3",
+                "language" : "Tailwind CSS",
                 "color" : "#800080"
             },
             {
@@ -57,6 +61,14 @@
             },
             {
                 "language" : "Azure",
+                "color" : "#0072c6"
+            },
+            {
+                "language" : "Openai",
+                "color" : "#0072c6"
+            },
+            {
+                "language" : "Langchain",
                 "color" : "#0072c6"
             }
         ] 
@@ -81,7 +93,7 @@
                 "color" : "#27a3a3"
             },
             {
-                "language" : "CSS3",
+                "language" : "Tailwind CSS",
                 "color" : "#800080"
             },
             {
@@ -94,6 +106,55 @@
             },
             {
                 "language" : "Azure",
+                "color" : "#0072c6"
+            },
+            {
+                "language" : "Openai",
+                "color" : "#0072c6"
+            },
+            {
+                "language" : "Langchain",
+                "color" : "#0072c6"
+            }
+        ] 
+    },
+    { 
+        "title": "Conversational Learning AI Assistant", 
+        "description": "The Conversational Learning AI Assistant is a conversational assistant system using a modern full-stack stack: Next.js (frontend + API routing), Express.js (backend services), TypeScript (for type safety across client and server), and Supabase (database, authentication, real-time features). The assistant supports natural conversational flows, message history tracking, and real-time updates.", 
+        "link": "https://github.com/hashan789/vibeactually-assignment" ,
+        "project" : "" ,
+        "image": "/images/assistant.png",
+        "technologies" : [
+            {
+                "language" : "Next",
+                "color" : "#0000ff"
+            },
+            {
+                "language" : "Node.js",
+                "color" : "#008000"
+            },
+            {
+                "language" : "TypeScript",
+                "color" : "#27a3a3"
+            },
+            {
+                "language" : "Express JS",
+                "color" : "#000000"
+            },
+            {
+                "language" : "Supabase",
+                "color" : "#72db72"
+            },
+            {
+                "language" : "Openai",
+                "color" : "#0072c6"
+            },
+            {
+                "language" : "Prisma",
+                "color" : "#0072c6"
+            },
+            {
+                "language" : "Tailwind CSS",
                 "color" : "#0072c6"
             }
         ] 
