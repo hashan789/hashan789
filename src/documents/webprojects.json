@@ -1,7 +1,7 @@
 [
     { 
         "title": "hashsports-ecommerce", 
-        "description": "HashSports is a dynamic eCommerce platform developed using HTML, CSS, PHP, and MySQL. Designed for a seamless and fast user experience, HashSports offers a modern interface with responsive design, ensuring smooth navigation across all devices.It has been utilized Vite and React for blazing-fast loading speeds and a dynamic user interface and Crafted a clean, responsive design with custom animations for an engaging user experience.", 
+        "description": "HashSports is a dynamic eCommerce platform developed using HTML, CSS, PHP, and MySQL. Designed for a seamless and fast user experience, HashSports offers a modern interface with responsive design, ensuring smooth navigation across all devices.It has been crafted a clean, responsive design with custom animations for an engaging user experience.", 
         "link": "https://github.com/hashan789/hashsports-ecommerce" ,
         "project" : "https://hashsports.infinityfreeapp.com/index.php" ,
         "image": "/images/hashsports-ecommerce.png",
