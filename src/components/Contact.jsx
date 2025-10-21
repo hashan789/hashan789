@@ -47,7 +47,7 @@ function Contact () {
             name="name"
             type="text"
             placeholder=""
-            className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
+            className="w-full p-2 mb-4 text-sm border border-gray-300 rounded text-black"
           />
           <label htmlFor="email">Email</label>
           <input
@@ -56,7 +56,7 @@ function Contact () {
             name="email"
             type="email"
             placeholder=""
-            className="w-full p-2 mb-4 text-sm border border-gray-300 rounded"
+            className="w-full p-2 mb-4 text-sm border border-gray-300 rounded text-black"
           />
           <label htmlFor="message">Message</label>
           <textarea
