@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { Button, Link } from "react-scroll";
-import  downloadCV  from "../context/downloadCV";
 import TypingText from "./TypingText";
 import logo from "../images/portfolio-image.png"
 
@@ -30,7 +29,7 @@ const Hero = () => (
       </a>
     </div>
     <div className="flex lg:justify-start max-lg:justify-center items-center gap-[20px]">
-      <Button smooth className={`hover:border-workspace-light hover:bg-white bg-workspace-light border-[1px] w-36 font-semibold h-10 rounded-full hover:text-workspace-light text-white transition-all duration-300 mt-5`} onClick={downloadCV}>Download CV</Button>
+      <Button smooth className={`hover:border-workspace-light hover:bg-white bg-workspace-light border-[1px] w-36 font-semibold h-10 rounded-full hover:text-workspace-light text-white transition-all duration-300 mt-5`} >Download CV</Button>
       <Link to={'about'} className={`border-workspace-light bg-white hover:bg-workspace-light border-[1px] w-36 font-semibold h-10 rounded-full text-workspace-light hover:text-white transition-all duration-300 mt-5 flex justify-center items-center`}>About Me</Link>
     </div>
   </div>
