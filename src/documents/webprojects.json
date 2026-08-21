@@ -2,8 +2,8 @@
     { 
         "title": "hashsports-ecommerce", 
         "description": "HashSports is a dynamic eCommerce platform developed using HTML, CSS, PHP, and MySQL. Designed for a seamless and fast user experience, HashSports offers a modern interface with responsive design, ensuring smooth navigation across all devices.It has been crafted a clean, responsive design with custom animations for an engaging user experience.", 
-        "link": "https://github.com/hashan789/hashsports-ecommerce" ,
-        "project" : "https://hashsports.infinityfreeapp.com/index.php" ,
+        "link": "" ,
+        "project" : "https://hashsports.infinityfree.me" ,
         "image": "/images/hashsports-ecommerce.png",
         "technologies" : [
             {
@@ -32,7 +32,7 @@
         "title": "Visitsrilanka", 
         "description": "visitSriLanka is a blog website built using HTML, CSS, PHP, and MySQL, dedicated to showcasing the rich culture, traditions, and lifestyle of Sri Lanka. The platform features a variety of blogs covering history, cuisine, festivals, and local experiences, providing authentic insights for both locals and international readers. Designed with a responsive layout and a dynamic backend, the website offers a seamless and user-friendly experience while promoting cultural awareness and tourism through engaging content.", 
         "link": "https://github.com/hashan789/visitsrilanka" ,
-        "project" : "http://visitsrilankanew.infinityfree.me/index.php" ,
+        "project" : "http://visitsrilanka.infinityfreeapp.com" ,
         "image": "/images/hashsports.png",
         "technologies" : [
             {
