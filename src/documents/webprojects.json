@@ -60,7 +60,6 @@
     { 
         "title": "MemeGen", 
         "description": "MemeGen, A social media generator built with React.js is a dynamic web application designed to create visual content suitable for various social platforms.", 
-        "link": "https://github.com/hashan789/Meme-Gen" ,
         "project" : "https://memegenofficial.netlify.app/" ,
         "image": "/images/memegen.png",
         "technologies" : [
